@@ -1,0 +1,107 @@
+:root {
+  --font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  font-family: var(--font-family) !important;
+}
+
+a,
+p,
+input,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+button {
+  font-family: var(--font-family) !important;
+}
+
+header {
+  min-height: 100vh;
+  background-color: #0076ff;
+  border-radius: 0 35px 35px 0;
+}
+
+.card-main {
+  height: 88%;
+  box-shadow: 4px 4px 4px 4px #aaa;
+  padding: 20px;
+  margin-left: 45px;
+  margin-right: 45px;
+  border-radius: 25px;
+}
+
+.title-conteudo{
+    color: #0076ff;
+}
+
+/* estilo p/ itens do bootstrap */
+
+header a,
+button {
+  color: #fff !important;
+  padding: 0.25rem 0.5rem;
+}
+
+.dropdown-toggle {
+  outline: 0;
+}
+
+.btn-toggle {
+  padding: 0.25rem 0.5rem;
+  font-weight: 600;
+  color: #fff !important;
+  background-color: transparent;
+}
+
+.btn-toggle:hover,
+.btn-toggle:focus {
+  color: rgba(var(--bs-emphasis-color-rgb), 0.85) !important;
+  background-color: var(--bs-tertiary-bg);
+}
+
+.btn-toggle::before {
+  width: 1.25em;
+  line-height: 0;
+  content: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='rgba%280,0,0,.5%29' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/%3e%3c/svg%3e");
+  transition: transform 0.35s ease;
+  transform-origin: 0.5em 50%;
+}
+
+[data-bs-theme="dark"] .btn-toggle::before {
+  content: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='rgba%28255,255,255,.5%29' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/%3e%3c/svg%3e");
+}
+
+.btn-toggle[aria-expanded="true"] {
+  color: rgba(var(--bs-emphasis-color-rgb), 0.85);
+}
+
+.btn-toggle[aria-expanded="true"]::before {
+  transform: rotate(90deg);
+}
+
+.btn-toggle-nav a {
+  padding: 0.1875rem 0.5rem;
+  margin-top: 0.125rem;
+  margin-left: 1.25rem;
+}
+
+.btn-toggle-nav a:hover,
+.btn-toggle-nav a:focus {
+  background-color: var(--bs-tertiary-bg);
+  color: rgba(var(--bs-emphasis-color-rgb), 0.85) !important;
+}
+
+.scrollarea {
+  overflow-y: auto;
+}
+
+.breadcrumb-item ~ .active{
+    font-weight: 700;
+    color: #000;
+}
