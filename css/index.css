@@ -101,7 +101,7 @@ button {
   overflow-y: auto;
 }
 
-.breadcrumb-item ~ .active{
+li.active{
     font-weight: 700;
     color: #000;
 }
