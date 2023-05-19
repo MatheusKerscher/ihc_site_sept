@@ -42,6 +42,22 @@ header {
     color: #0076ff;
 }
 
+.img-perfil{
+  border-radius: 50%;
+}
+
+.title-perfil{
+  color: #0076ff;
+}
+
+.linkedin-perfil{
+  color: #0076ff;
+}
+
+.linha-vertical {
+  border-left: 1px solid #aaa;
+}
+
 /* estilo p/ itens do bootstrap */
 
 header a,
