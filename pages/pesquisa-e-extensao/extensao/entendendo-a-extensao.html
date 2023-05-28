@@ -1,686 +1,768 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SEPT</title>
+    <link rel="stylesheet" href="../../../css/reset.css" />
+    <link rel="stylesheet" href="../../../css/index.css" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SEPT</title>
-  <link rel="stylesheet" href="../../../css/reset.css" />
-  <link rel="stylesheet" href="../../../css/index.css" />
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
 
-  <!-- bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-    crossorigin="anonymous"></script>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-  <!-- google fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet" />
-</head>
-
-<body class="row w-100">
-  <header class="col-5 col-md-3 col-lg-2">
-    <div class="flex-shrink-0 p-3 w-100">
-      <a
-        href="/"
-        class="d-flex align-items-center pb-3 mb-3 link-body-emphasis text-decoration-none border-bottom"
-      >
-        <span class="fs-5 fw-semibold"
-          >SEPT - Setor de Educação Profissional e Tecnológica</span
+  <body class="row w-100">
+    <header class="col-5 col-md-3 col-lg-2">
+      <div class="flex-shrink-0 p-3 w-100">
+        <a
+          href="/"
+          class="d-flex align-items-center pb-3 mb-3 link-body-emphasis text-decoration-none border-bottom"
         >
-      </a>
-
-      <ul class="list-unstyled ps-0">
-        <!-- Inicio -->
-        <li class="mb-3">
-          <a
-            href="/index.html"
-            class="link-body-emphasis d-inline-flex text-decoration-none rounded"
-            >Inicio</a
+          <span class="fs-5 fw-semibold"
+            >SEPT - Setor de Educação Profissional e Tecnológica</span
           >
-        </li>
+        </a>
 
-        <!-- Acesso a informação -->
-        <li class="mb-1">
-          <button
-            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-            data-bs-toggle="collapse"
-            data-bs-target="#acesso-informacao"
-            aria-expanded="false"
-          >
-            Acesso a Informação
-          </button>
-          <div class="collapse" id="acesso-informacao">
-            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-              <li>
-                <a
-                  target="_blank"
-                  href="http://200.236.3.198:28080/calendariosetorial/Home"
-                  class="link-body-emphasis d-inline-flex text-decoration-none rounded"
-                  >Agenda SEPT</a
-                >
-              </li>
+        <ul class="list-unstyled ps-0">
+          <!-- Inicio -->
+          <li class="mb-3">
+            <a
+              href="/index.html"
+              class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+              >Inicio</a
+            >
+          </li>
 
-              <li>
-                <a
-                  href="/pages/acesso-a-informacao/conselho-setorial.html"
-                  class="link-body-emphasis d-inline-flex text-decoration-none rounded"
-                  >Conselho Setorial</a
-                >
-              </li>
-
-              <li>
-                <a
-                  href="#"
-                  class="link-body-emphasis d-inline-flex text-decoration-none rounded"
-                  >CPEDD</a
-                >
-              </li>
-
-              <li>
-                <a
-                  href="#"
-                  class="link-body-emphasis d-inline-flex text-decoration-none rounded"
-                  >Editais</a
-                >
-              </li>
-
-              <li>
-                <a
-                  href="/pages/acesso-a-informacao/financeiro.html"
-                  class="link-body-emphasis d-inline-flex text-decoration-none rounded"
-                  >Financeiro</a
-                >
-              </li>
-
-              <li>
-                <a
-                  href="#"
-                  class="link-body-emphasis d-inline-flex text-decoration-none rounded"
-                  >NIM</a
-                >
-              </li>
-
-              <li>
-                <a
-                  href="#"
-                  class="link-body-emphasis d-inline-flex text-decoration-none rounded"
-                  >CPEDD</a
-                >
-              </li>
-
-              <li>
-                <a
-                  href="#"
-                  class="link-body-emphasis d-inline-flex text-decoration-none rounded"
-                  >PDI/UFPR 2026</a
-                >
-              </li>
-
-              <li>
-                <a
-                  href="#"
-                  class="link-body-emphasis d-inline-flex text-decoration-none rounded"
-                  >PDTIC/UFPR 2026</a
-                >
-              </li>
-
-              <li>
-                <a
-                  target="_blank"
-                  href="http://200.236.3.198:28080/portarianomeacao/Home"
-                  class="link-body-emphasis d-inline-flex text-decoration-none rounded"
-                  >Portarias de Nomeação</a
-                >
-              </li>
-
-              <li>
-                <a
-                  href="#"
-                  class="link-body-emphasis d-inline-flex text-decoration-none rounded"
-                  >Resoluções</a
-                >
-              </li>
-            </ul>
-          </div>
-        </li>
-
-        <!-- Alunos -->
-        <li class="my-3">
-          <a
-            href="#"
-            class="link-body-emphasis d-inline-flex text-decoration-none rounded"
-            >Alunos</a
-          >
-        </li>
-
-        <!-- Concursos e Testes -->
-        <li class="mb-1">
-          <button
-            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-            data-bs-toggle="collapse"
-            data-bs-target="#concursos-testes"
-            aria-expanded="false"
-          >
-            Concursos e Testes
-          </button>
-          <div class="collapse" id="concursos-testes">
-            <!-- Concursos -->
-            <ul class="list-unstyled ps-2">
-              <li class="mb-1">
-                <button
-                  class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#concursos"
-                  aria-expanded="false"
-                >
-                  Concursos
-                </button>
-                <div class="collapse" id="concursos">
-                  <ul
-                    class="btn-toggle-nav list-unstyled fw-normal pb-1 small"
+          <!-- Acesso a informação -->
+          <li class="mb-1">
+            <button
+              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#acesso-informacao"
+              aria-expanded="false"
+            >
+              Acesso a Informação
+            </button>
+            <div class="collapse" id="acesso-informacao">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li>
+                  <a
+                    target="_blank"
+                    href="http://200.236.3.198:28080/calendariosetorial/Home"
+                    class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                    >Agenda SEPT</a
                   >
-                    <li>
-                      <a
-                        href="/pages/concursos-e-testes/concursos-publicos/concursos-abertos.html"
-                        class="link-body-emphasis d-inline-flex text-decoration-none rounded"
-                        >Concursos Públicos Abertos</a
-                      >
-                    </li>
+                </li>
 
-                    <li>
-                      <a
-                        href="/pages/concursos-e-testes/concursos-publicos/concursos-realizados.html"
-                        class="link-body-emphasis d-inline-flex text-decoration-none rounded"
-                        >Concursos Públicos Realizados</a
-                      >
-                    </li>
-
-                    <li>
-                      <a
-                        target="_blank"
-                        href="http://progepe.ufpr.br/progepe/concursos/docente/concursos_publicos/resolucoes.html"
-                        class="link-body-emphasis d-inline-flex text-decoration-none rounded"
-                        >Resoluções</a
-                      >
-                    </li>
-                  </ul>
-                </div>
-              </li>
-            </ul>
-
-            <!-- Testes -->
-            <ul class="list-unstyled ps-2">
-              <li class="mb-1">
-                <button
-                  class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#testes"
-                  aria-expanded="false"
-                >
-                  Testes
-                </button>
-                <div class="collapse" id="testes">
-                  <ul
-                    class="btn-toggle-nav list-unstyled fw-normal pb-1 small"
+                <li>
+                  <a
+                    href="/pages/acesso-a-informacao/conselho-setorial.html"
+                    class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                    >Conselho Setorial</a
                   >
-                    <li>
-                      <a
-                        href="/pages/concursos-e-testes/testes-seletivos/resolucoes.html"
-                        class="link-body-emphasis d-inline-flex text-decoration-none rounded"
-                        >Resoluções</a
-                      >
-                    </li>
+                </li>
 
-                    <li>
-                      <a
-                        href="/pages/concursos-e-testes/testes-seletivos/testes-seletivos-abertos.html"
-                        class="link-body-emphasis d-inline-flex text-decoration-none rounded"
-                        >Testes Seletivos Abertos</a
-                      >
-                    </li>
-
-                    <li>
-                      <a
-                        href="/pages/concursos-e-testes/testes-seletivos/testes-seletivos-realizados.html"
-                        class="link-body-emphasis d-inline-flex text-decoration-none rounded"
-                        >Testes Seletivos Realizados</a
-                      >
-                    </li>
-                  </ul>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </li>
-
-        <!-- Desenvolvedores -->
-        <li class="mb-1">
-          <button
-            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-            data-bs-toggle="collapse"
-            data-bs-target="#desenvolvedores"
-            aria-expanded="false"
-          >
-            Desenvolvedores
-          </button>
-          <div class="collapse" id="desenvolvedores">
-            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-              <li>
-                <a
-                  href="/pages/desenvolvedores/mariane-roesler.html"
-                  class="link-body-emphasis d-inline-flex text-decoration-none rounded"
-                  >Mariane Roesler</a
-                >
-              </li>
-
-              <li>
-                <a
-                  href="/pages/desenvolvedores/matheus-kerscher.html"
-                  class="link-body-emphasis d-inline-flex text-decoration-none rounded"
-                  >Matheus Kerscher</a
-                >
-              </li>
-
-              <li>
-                <a
-                  href="/pages/desenvolvedores/nathan-rosa.html"
-                  class="link-body-emphasis d-inline-flex text-decoration-none rounded"
-                  >Nathan Rosa</a
-                >
-              </li>
-
-              <li>
-                <a
-                  href="/pages/desenvolvedores/rafael-dias.html"
-                  class="link-body-emphasis d-inline-flex text-decoration-none rounded"
-                  >Rafael Dias</a
-                >
-              </li>
-            </ul>
-          </div>
-        </li>
-
-        <!-- Docentes -->
-        <li class="mb-1">
-          <button
-            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-            data-bs-toggle="collapse"
-            data-bs-target="#docentes"
-            aria-expanded="false"
-          >
-            Docentes
-          </button>
-          <div class="collapse" id="docentes">
-            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-              <li>
-                <a
-                  target="_blank"
-                  href="http://www.sept.ufpr.br/portal/administrativo9"
-                  class="link-body-emphasis d-inline-flex text-decoration-none rounded"
-                  >Administrativo</a
-                >
-              </li>
-
-              <li>
-                <a
-                  target="_blank"
-                  href="http://200.236.3.198:28080/salasept/"
-                  class="link-body-emphasis d-inline-flex text-decoration-none rounded"
-                  >Sistema de reserva de salas</a
-                >
-              </li>
-            </ul>
-          </div>
-        </li>
-
-        <!-- Pesquisa e Extensão -->
-        <li class="mb-1">
-          <button
-            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-            data-bs-toggle="collapse"
-            data-bs-target="#pesquisa-extensao"
-            aria-expanded="true"
-          >
-            Pesquisa e Extensão
-          </button>
-          <div class="collapse show" id="pesquisa-extensao">
-            <!-- Pesquisa -->
-            <ul class="list-unstyled ps-2">
-              <li class="mb-1">
-                <button
-                  class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#pesquisa"
-                  aria-expanded="false"
-                >
-                  Pesquisa
-                </button>
-                <div class="collapse" id="pesquisa">
-                  <ul
-                    class="btn-toggle-nav list-unstyled fw-normal pb-1 small"
+                <li>
+                  <a
+                    href="#"
+                    class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                    >CPEDD</a
                   >
-                    <li>
-                      <a
-                        href="#"
-                        class="link-body-emphasis d-inline-flex text-decoration-none rounded"
-                        >Auxílio e Fomento</a
-                      >
-                    </li>
+                </li>
 
-                    <li>
-                      <a
-                        href="#"
-                        class="link-body-emphasis d-inline-flex text-decoration-none rounded"
-                        >Comitê de pesquisa</a
-                      >
-                    </li>
-
-                    <li>
-                      <a
-                        href="#"
-                        class="link-body-emphasis d-inline-flex text-decoration-none rounded"
-                        >Grupos de pesquisa</a
-                      >
-                    </li>
-
-                    <li>
-                      <a
-                        href="#"
-                        class="link-body-emphasis d-inline-flex text-decoration-none rounded"
-                        >Iniciação científica</a
-                      >
-                    </li>
-
-                    <li>
-                      <a
-                        target="_blank"
-                        href="http://200.17.200.17/wa_files/Manual_20para_20divulga_C3_A7_C3_A3o_20pela_20UFPR.pdf"
-                        class="link-body-emphasis d-inline-flex text-decoration-none rounded"
-                        >Manual de divulgação</a
-                      >
-                    </li>
-
-                    <li>
-                      <a
-                        href="#"
-                        class="link-body-emphasis d-inline-flex text-decoration-none rounded"
-                        >Projetos de pesquisa</a
-                      >
-                    </li>
-                  </ul>
-                </div>
-              </li>
-            </ul>
-
-            <!-- Extensão -->
-            <ul class="list-unstyled ps-2">
-              <li class="mb-1">
-                <button
-                  class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#extensao"
-                  aria-expanded="true"
-                >
-                  Extensão
-                </button>
-                <div class="collapse show" id="extensao">
-                  <ul
-                    class="btn-toggle-nav list-unstyled fw-normal pb-1 small"
+                <li>
+                  <a
+                    href="#"
+                    class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                    >Editais</a
                   >
-                    <li >
-                      <a
-                        href="/pages/pesquisa-e-extensao/extensao/como-emitir-certificados.html"
-                        class="link-body-emphasis d-inline-flex text-decoration-none rounded"
-                        >Como emitir os certificados</a
-                      >
-                    </li>
+                </li>
 
-                    <li>
-                      <a
-                        target="_blank"
-                        href="http://www.proec.ufpr.br/links/extensao/normatizacoes.html"
-                        class="link-body-emphasis d-inline-flex text-decoration-none rounded"
-                        >Como propor a extensão</a
-                      >
-                    </li>
+                <li>
+                  <a
+                    href="/pages/acesso-a-informacao/financeiro.html"
+                    class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                    >Financeiro</a
+                  >
+                </li>
 
-                    <li>
-                      <a
-                        href="/pages/pesquisa-e-extensao/extensao/entendendo-a-extensao.html"
-                        class="link-body-emphasis d-inline-flex text-decoration-none rounded  text-decoration-underline fw-bold"
-                        >Entendendo a extensão</a
-                      >
-                    </li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                    >NIM</a
+                  >
+                </li>
 
-                    <li>
-                      <a
-                        href="/pages/pesquisa-e-extensao/extensao/membro-do-comite-setorial.html"
-                        class="link-body-emphasis d-inline-flex text-decoration-none rounded"
-                        >Membros do comitê setorial de extensão</a
-                      >
-                    </li>
+                <li>
+                  <a
+                    href="#"
+                    class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                    >CPEDD</a
+                  >
+                </li>
 
-                    <li>
-                      <a
-                        href="/pages/pesquisa-e-extensao/extensao/reunioes-do-comite-setorial.html"
-                        class="link-body-emphasis d-inline-flex text-decoration-none rounded"
-                        >Reuniões do comitê setorial de extensão</a
-                      >
-                    </li>
-                  </ul>
-                </div>
-              </li>
-            </ul>
+                <li>
+                  <a
+                    href="#"
+                    class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                    >PDI/UFPR 2026</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="#"
+                    class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                    >PDTIC/UFPR 2026</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    target="_blank"
+                    href="http://200.236.3.198:28080/portarianomeacao/Home"
+                    class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                    >Portarias de Nomeação</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="#"
+                    class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                    >Resoluções</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <!-- Alunos -->
+          <li class="my-3">
+            <a
+              href="#"
+              class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+              >Alunos</a
+            >
+          </li>
+
+          <!-- Concursos e Testes -->
+          <li class="mb-1">
+            <button
+              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#concursos-testes"
+              aria-expanded="false"
+            >
+              Concursos e Testes
+            </button>
+            <div class="collapse" id="concursos-testes">
+              <!-- Concursos -->
+              <ul class="list-unstyled ps-2">
+                <li class="mb-1">
+                  <button
+                    class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#concursos"
+                    aria-expanded="false"
+                  >
+                    Concursos
+                  </button>
+                  <div class="collapse" id="concursos">
+                    <ul
+                      class="btn-toggle-nav list-unstyled fw-normal pb-1 small"
+                    >
+                      <li>
+                        <a
+                          href="/pages/concursos-e-testes/concursos-publicos/concursos-abertos.html"
+                          class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                          >Concursos Públicos Abertos</a
+                        >
+                      </li>
+
+                      <li>
+                        <a
+                          href="/pages/concursos-e-testes/concursos-publicos/concursos-realizados.html"
+                          class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                          >Concursos Públicos Realizados</a
+                        >
+                      </li>
+
+                      <li>
+                        <a
+                          target="_blank"
+                          href="http://progepe.ufpr.br/progepe/concursos/docente/concursos_publicos/resolucoes.html"
+                          class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                          >Resoluções</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+
+              <!-- Testes -->
+              <ul class="list-unstyled ps-2">
+                <li class="mb-1">
+                  <button
+                    class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#testes"
+                    aria-expanded="false"
+                  >
+                    Testes
+                  </button>
+                  <div class="collapse" id="testes">
+                    <ul
+                      class="btn-toggle-nav list-unstyled fw-normal pb-1 small"
+                    >
+                      <li>
+                        <a
+                          href="/pages/concursos-e-testes/testes-seletivos/resolucoes.html"
+                          class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                          >Resoluções</a
+                        >
+                      </li>
+
+                      <li>
+                        <a
+                          href="/pages/concursos-e-testes/testes-seletivos/testes-seletivos-abertos.html"
+                          class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                          >Testes Seletivos Abertos</a
+                        >
+                      </li>
+
+                      <li>
+                        <a
+                          href="/pages/concursos-e-testes/testes-seletivos/testes-seletivos-realizados.html"
+                          class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                          >Testes Seletivos Realizados</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <!-- Desenvolvedores -->
+          <li class="mb-1">
+            <button
+              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#desenvolvedores"
+              aria-expanded="false"
+            >
+              Desenvolvedores
+            </button>
+            <div class="collapse" id="desenvolvedores">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li>
+                  <a
+                    href="/pages/desenvolvedores/mariane-roesler.html"
+                    class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                    >Mariane Roesler</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="/pages/desenvolvedores/matheus-kerscher.html"
+                    class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                    >Matheus Kerscher</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="/pages/desenvolvedores/nathan-rosa.html"
+                    class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                    >Nathan Rosa</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="/pages/desenvolvedores/rafael-dias.html"
+                    class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                    >Rafael Dias</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <!-- Docentes -->
+          <li class="mb-1">
+            <button
+              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#docentes"
+              aria-expanded="false"
+            >
+              Docentes
+            </button>
+            <div class="collapse" id="docentes">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li>
+                  <a
+                    target="_blank"
+                    href="http://www.sept.ufpr.br/portal/administrativo9"
+                    class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                    >Administrativo</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    target="_blank"
+                    href="http://200.236.3.198:28080/salasept/"
+                    class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                    >Sistema de reserva de salas</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <!-- Pesquisa e Extensão -->
+          <li class="mb-1">
+            <button
+              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#pesquisa-extensao"
+              aria-expanded="true"
+            >
+              Pesquisa e Extensão
+            </button>
+            <div class="collapse show" id="pesquisa-extensao">
+              <!-- Pesquisa -->
+              <ul class="list-unstyled ps-2">
+                <li class="mb-1">
+                  <button
+                    class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#pesquisa"
+                    aria-expanded="false"
+                  >
+                    Pesquisa
+                  </button>
+                  <div class="collapse" id="pesquisa">
+                    <ul
+                      class="btn-toggle-nav list-unstyled fw-normal pb-1 small"
+                    >
+                      <li>
+                        <a
+                          href="#"
+                          class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                          >Auxílio e Fomento</a
+                        >
+                      </li>
+
+                      <li>
+                        <a
+                          href="#"
+                          class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                          >Comitê de pesquisa</a
+                        >
+                      </li>
+
+                      <li>
+                        <a
+                          href="#"
+                          class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                          >Grupos de pesquisa</a
+                        >
+                      </li>
+
+                      <li>
+                        <a
+                          href="#"
+                          class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                          >Iniciação científica</a
+                        >
+                      </li>
+
+                      <li>
+                        <a
+                          target="_blank"
+                          href="http://200.17.200.17/wa_files/Manual_20para_20divulga_C3_A7_C3_A3o_20pela_20UFPR.pdf"
+                          class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                          >Manual de divulgação</a
+                        >
+                      </li>
+
+                      <li>
+                        <a
+                          href="#"
+                          class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                          >Projetos de pesquisa</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+
+              <!-- Extensão -->
+              <ul class="list-unstyled ps-2">
+                <li class="mb-1">
+                  <button
+                    class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#extensao"
+                    aria-expanded="true"
+                  >
+                    Extensão
+                  </button>
+                  <div class="collapse show" id="extensao">
+                    <ul
+                      class="btn-toggle-nav list-unstyled fw-normal pb-1 small"
+                    >
+                      <li>
+                        <a
+                          href="/pages/pesquisa-e-extensao/extensao/como-emitir-certificados.html"
+                          class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                          >Como emitir os certificados</a
+                        >
+                      </li>
+
+                      <li>
+                        <a
+                          target="_blank"
+                          href="http://www.proec.ufpr.br/links/extensao/normatizacoes.html"
+                          class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                          >Como propor a extensão</a
+                        >
+                      </li>
+
+                      <li>
+                        <a
+                          href="/pages/pesquisa-e-extensao/extensao/entendendo-a-extensao.html"
+                          class="link-body-emphasis d-inline-flex text-decoration-none rounded text-decoration-underline fw-bold"
+                          >Entendendo a extensão</a
+                        >
+                      </li>
+
+                      <li>
+                        <a
+                          href="/pages/pesquisa-e-extensao/extensao/membro-do-comite-setorial.html"
+                          class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                          >Membros do comitê setorial de extensão</a
+                        >
+                      </li>
+
+                      <li>
+                        <a
+                          href="/pages/pesquisa-e-extensao/extensao/reunioes-do-comite-setorial.html"
+                          class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                          >Reuniões do comitê setorial de extensão</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <!-- Sobre o setor -->
+          <li class="mb-1">
+            <button
+              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#sobre-setor"
+              aria-expanded="false"
+            >
+              Sobre o setor
+            </button>
+            <div class="collapse" id="sobre-setor">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li>
+                  <a
+                    href="/pages/sobre-setor/como-ingressar.html"
+                    class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                    >Como Ingressar</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="#"
+                    class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                    >Contato</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="/pages/sobre-setor/corpo-docente.html"
+                    class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                    >Corpo Docente</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="#"
+                    class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                    >Cursos</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="/pages/sobre-setor/historia.html"
+                    class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                    >História</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="#"
+                    class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                    >Sistemas</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="/pages/sobre-setor/unidades.html"
+                    class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                    >Unidades do Setor</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="border-top my-3"></li>
+        </ul>
+
+        <div>
+          <!-- Facebook -->
+          <div class="my-3">
+            <a
+              href="#"
+              class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+              >Facebook</a
+            >
           </div>
-        </li>
 
-        <!-- Sobre o setor -->
-        <li class="mb-1">
-          <button
-            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-            data-bs-toggle="collapse"
-            data-bs-target="#sobre-setor"
-            aria-expanded="false"
-          >
-            Sobre o setor
-          </button>
-          <div class="collapse" id="sobre-setor">
-            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-              <li>
-                <a
-                  href="/pages/sobre-setor/como-ingressar.html"
-                  class="link-body-emphasis d-inline-flex text-decoration-none rounded"
-                  >Como Ingressar</a
-                >
-              </li>
-
-              <li>
-                <a
-                  href="#"
-                  class="link-body-emphasis d-inline-flex text-decoration-none rounded"
-                  >Contato</a
-                >
-              </li>
-
-              <li>
-                <a
-                  href="/pages/sobre-setor/corpo-docente.html"
-                  class="link-body-emphasis d-inline-flex text-decoration-none rounded"
-                  >Corpo Docente</a
-                >
-              </li>
-
-              <li>
-                <a
-                  href="#"
-                  class="link-body-emphasis d-inline-flex text-decoration-none rounded"
-                  >Cursos</a
-                >
-              </li>
-
-              <li>
-                <a
-                  href="/pages/sobre-setor/historia.html"
-                  class="link-body-emphasis d-inline-flex text-decoration-none rounded"
-                  >História</a
-                >
-              </li>
-
-              <li>
-                <a
-                  href="#"
-                  class="link-body-emphasis d-inline-flex text-decoration-none rounded"
-                  >Sistemas</a
-                >
-              </li>
-
-              <li>
-                <a
-                  href="/pages/sobre-setor/unidades.html"
-                  class="link-body-emphasis d-inline-flex text-decoration-none rounded"
-                  >Unidades do Setor</a
-                >
-              </li>
-            </ul>
+          <!-- Newsletter -->
+          <div class="my-3">
+            <a
+              href="#"
+              class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+              >Assine a newsletter</a
+            >
           </div>
-        </li>
-
-        <li class="border-top my-3"></li>
-      </ul>
-
-      <div>
-        <!-- Facebook -->
-        <div class="my-3">
-          <a
-            href="#"
-            class="link-body-emphasis d-inline-flex text-decoration-none rounded"
-            >Facebook</a
-          >
-        </div>
-
-        <!-- Newsletter -->
-        <div class="my-3">
-          <a
-            href="#"
-            class="link-body-emphasis d-inline-flex text-decoration-none rounded"
-            >Assine a newsletter</a
-          >
         </div>
       </div>
-    </div>
-  </header>
+    </header>
 
-  <main class="col-7 col-md-9 col-lg-10">
-    <div class="mt-2 mb-5 ms-3">
-      <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item">Pesquisa e extensão</li>
-          <li class="breadcrumb-item">extensão</li>
-          <li class="breadcrumb-item active" aria-current="page">
-            Entendendo a extensão
-          </li>
-        </ol>
-      </nav>
-    </div>
+    <main class="col-7 col-md-9 col-lg-10">
+      <div class="mt-2 mb-5 ms-3">
+        <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item">Pesquisa e extensão</li>
+            <li class="breadcrumb-item">extensão</li>
+            <li class="breadcrumb-item active" aria-current="page">
+              Entendendo a extensão
+            </li>
+          </ol>
+        </nav>
+      </div>
 
-    <div class="card-main"  style="max-height: 82vh; overflow: auto">
-      <h2 class="mb-5 title-conteudo">O que é a extensão?</h2>
+      <div class="card-main" style="max-height: 82vh; overflow: auto">
+        <h2 class="mb-5 title-conteudo">O que é a extensão?</h2>
 
-      <p>A Extensão Universitária é um processo educativo, cultural, científico e/ou tecnológico, que articula o ensino
-        e a pesquisa de forma indissociável e viabiliza a relação transformadora entre a Universidade e os demais
-        setores da sociedade. (<a href="#">Resolução 72/11 – CEPE Art. 1</a>) As atividades de Extensão devem obedecer
-        aos cinco princípios definidos pelo FORPROEX – Fórum de Pró-Reitores de Extensão de Universidades Públicas:</p>
+        <p>
+          A Extensão Universitária é um processo educativo, cultural, científico
+          e/ou tecnológico, que articula o ensino e a pesquisa de forma
+          indissociável e viabiliza a relação transformadora entre a
+          Universidade e os demais setores da sociedade. (<a href="#"
+            >Resolução 72/11 – CEPE Art. 1</a
+          >) As atividades de Extensão devem obedecer aos cinco princípios
+          definidos pelo FORPROEX – Fórum de Pró-Reitores de Extensão de
+          Universidades Públicas:
+        </p>
 
-      <h4>Impacto e Transformação</h4>
-      <p>Estabelece o norteador da atuação extensionista em direção ao respeito pelas características, necessidades e
-        interesses da comunidade onde as ações se realizam, visando criar condições para consolidar atividades que
-        contribuam para seu desenvolvimento, para o desenvolvimento regional e para o fortalecimento de políticas
-        públicas.</p>
-      <h4>Indissociabilidade de Ensino, pesquisa e extensão</h4>
-      <p>A “Indissociabilidade Ensino – Pesquisa – Extensão reafirma a Extensão Universitária como processo acadêmico,
-        vinculado ao processo de formação de pessoas (Ensino) e de geração de conhecimento (Pesquisa)”.</p>
-      <p>A indissociabilidade permite atuar a partir dos pilares da formação acadêmica, compreendendo que a intervenção
-        (característica da Extensão) não pode prescindir de sólidos fundamentos teóricos, advindos do conhecimento
-        gerado pela Pesquisa e integrante das atividades de Ensino. Ou seja, uma intervenção transformadora depende da
-        Pesquisa e do Ensino integrados nas atividades formativas e ao mesmo tempo, as intervenções despertam novas
-        perguntas que direcionam a investigação, fomentando pesquisas que contribua para a transformação social; e os
-        conhecimentos, metodologias e resultados advindos das atividades extensionistas devem ser estruturadas como
-        unidades de ensino, incrementando as atividades didáticas e contribuindo para a formação cidadã dos estudantes.
-      </p>
-      <h4>Interdisciplinaridade e Interprofissionalidade</h4>
-      <p>Compreendida em sentido amplo considera, principalmente, a contribuição de áreas e metodologias complementares
-        para o alcance dos objetivos das atividades extensionistas.</p>
-      <p>Para promover mudanças sociais, a intervenção na realidade deve permitir a interação de conceitos e
-        metodologias advindos de várias disciplinas e áreas do conhecimento, e também fomentar parcerias intersetoriais,
-        interorganizacionais e interprofissionais.</p>
-      <h4>Interação Dialógica</h4>
-      <p>Significa compreender que a relação transformadora que se pretende com as atividades extensionistas deve
-        considerar as demandas dos parceiros, das comunidades interna e externa, das diferentes áreas de conhecimento e
-        do contexto onde as ações são desenvolvidas. Significa que todas as ações devem articular conhecimentos e
-        expectativas da comunidade parceira e da UFPR. Portanto, o planejamento, a execução e a avaliação das ações
-        devem ser realizados de forma compartilhada e, sobretudo, obedecendo aos preceitos éticos envolvidos nas
-        intervenções com seres humanos ou animais.</p>
-      <h4>Impacto na Formação do Estudante</h4>
-      <p>As atividades de Extensão Universitária são decisivas para a formação do estudante, por instigarem a ampliação
-        dos referenciais teóricos, metodológicos e interdisciplinares no contexto das comunidades onde atuam e,
-        principalmente, por fomentar o contato direto com os grandes problemas contemporâneos</p>
-      <h4>Links úteis:</h4>
-      <p>FORPROEX : <a href="#">http://www.renex.org.br/</a> </p>
-      <p>Mais detalhes sobre os princípios extensionistas: <a href="#">http://www.proec.ufpr.br/links/extensao.html</a>
-      </p>
+        <h4>Impacto e Transformação</h4>
+        <p>
+          Estabelece o norteador da atuação extensionista em direção ao respeito
+          pelas características, necessidades e interesses da comunidade onde as
+          ações se realizam, visando criar condições para consolidar atividades
+          que contribuam para seu desenvolvimento, para o desenvolvimento
+          regional e para o fortalecimento de políticas públicas.
+        </p>
+        <h4>Indissociabilidade de Ensino, pesquisa e extensão</h4>
+        <p>
+          A “Indissociabilidade Ensino – Pesquisa – Extensão reafirma a Extensão
+          Universitária como processo acadêmico, vinculado ao processo de
+          formação de pessoas (Ensino) e de geração de conhecimento (Pesquisa)”.
+        </p>
+        <p>
+          A indissociabilidade permite atuar a partir dos pilares da formação
+          acadêmica, compreendendo que a intervenção (característica da
+          Extensão) não pode prescindir de sólidos fundamentos teóricos,
+          advindos do conhecimento gerado pela Pesquisa e integrante das
+          atividades de Ensino. Ou seja, uma intervenção transformadora depende
+          da Pesquisa e do Ensino integrados nas atividades formativas e ao
+          mesmo tempo, as intervenções despertam novas perguntas que direcionam
+          a investigação, fomentando pesquisas que contribua para a
+          transformação social; e os conhecimentos, metodologias e resultados
+          advindos das atividades extensionistas devem ser estruturadas como
+          unidades de ensino, incrementando as atividades didáticas e
+          contribuindo para a formação cidadã dos estudantes.
+        </p>
+        <h4>Interdisciplinaridade e Interprofissionalidade</h4>
+        <p>
+          Compreendida em sentido amplo considera, principalmente, a
+          contribuição de áreas e metodologias complementares para o alcance dos
+          objetivos das atividades extensionistas.
+        </p>
+        <p>
+          Para promover mudanças sociais, a intervenção na realidade deve
+          permitir a interação de conceitos e metodologias advindos de várias
+          disciplinas e áreas do conhecimento, e também fomentar parcerias
+          intersetoriais, interorganizacionais e interprofissionais.
+        </p>
+        <h4>Interação Dialógica</h4>
+        <p>
+          Significa compreender que a relação transformadora que se pretende com
+          as atividades extensionistas deve considerar as demandas dos
+          parceiros, das comunidades interna e externa, das diferentes áreas de
+          conhecimento e do contexto onde as ações são desenvolvidas. Significa
+          que todas as ações devem articular conhecimentos e expectativas da
+          comunidade parceira e da UFPR. Portanto, o planejamento, a execução e
+          a avaliação das ações devem ser realizados de forma compartilhada e,
+          sobretudo, obedecendo aos preceitos éticos envolvidos nas intervenções
+          com seres humanos ou animais.
+        </p>
+        <h4>Impacto na Formação do Estudante</h4>
+        <p>
+          As atividades de Extensão Universitária são decisivas para a formação
+          do estudante, por instigarem a ampliação dos referenciais teóricos,
+          metodológicos e interdisciplinares no contexto das comunidades onde
+          atuam e, principalmente, por fomentar o contato direto com os grandes
+          problemas contemporâneos
+        </p>
+        <h4>Links úteis:</h4>
+        <p>FORPROEX : <a href="#">http://www.renex.org.br/</a></p>
+        <p>
+          Mais detalhes sobre os princípios extensionistas:
+          <a href="#">http://www.proec.ufpr.br/links/extensao.html</a>
+        </p>
 
-      <h2 class="mt-5 mb-4 title-conteudo">Formas de Extensão</h2>
-      <h4>Evento</h4>
-      <p>Evento de Extensão é a atividade que implica na apresentação ou exibição pública, livre ou com clientela
-        específica, do conhecimento ou produto cultural, artístico, esportivo, científico e tecnológico desenvolvido e
-        reconhecido pela Universidade, de acordo com o estabelecido pelo FORPROEX – Fórum de Pró-Reitores de Extensão
-        das Universidades Públicas Brasileiras.(<a href="#">Resolução 72/11 – CEPE, Art. 32</a> ). (Classificação dos
-        Eventos de Extensão)</p>
-      <h4>Curso</h4>
-      <p>Curso de Extensão Universitária é a ação pedagógica, de caráter teórico ou prático, planejada e organizada de
-        modo sistemático, com carga horária previamente definida, que contemple o princípio I ou IV ou V dentre os cinco
-        estabelecidos na Resolução 72/11 – CEPE Art. 1º §2º.(Resolução 72/11 – CEPE, Art. 23).</p>
-      <p>Princípio I: Impacto e Transformação que visa o estabelecimento de relação entre a UFPR e os demais segmentos
-        da sociedade para uma atuação transformadora, voltada prioritariamente à formação acadêmica e a necessidades
-        sociais;</p>
-      <p>Princípio IV: Indissociabilidade Ensino, Pesquisa e Extensão que consiste no vínculo da Extensão Universitária
-        ao processo de formação de pessoas e de geração de conhecimento envolvendo necessariamente docentes e discentes
-        da UFPR.</p>
-      <p>Princípio V: Impacto na formação dos estudantes visando fortalecer a experiência discente em termos teóricos,
-        metodológicos e da cidadania.</p>
-      <h4>Programa</h4>
-      <p>Programa de Extensão é o conjunto articulado de Projetos e outras atividades de Extensão, que contemple os
-        cinco princípios estabelecidos no artigo 1º da Resolução 71/11 – CEPE, visando a resultados de mútuo interesse
-        para a sociedade e para a comunidade acadêmica. (Resolução 72/11 – CEPE, Art. 18).</p>
-      <p>Princípio I: Impacto e Transformação que visa o estabelecimento de relação entre a UFPR e os demais segmentos
-        da sociedade para uma atuação transformadora, voltada prioritariamente à formação acadêmica e a necessidades
-        sociais.</p>
-      <p>Princípio II: Interação Dialógica que visa o estabelecimento e desenvolvimento de relação entre a UFPR e os
-        demais segmentos da sociedade por meio do diálogo e da troca de saberes.</p>
-      <p>Princípio III: Interdisciplinaridade que visa o estabelecimento de inter-relação ou integração de
-        conhecimentos, metodologias profissionais no atendimento a demandas formativas e sociais.</p>
-      <p>Princípio IV: Indissociabilidade Ensino, Pesquisa e Extensão que consiste no vínculo da Extensão Universitária
-        ao processo de formação de pessoas e de geração de conhecimento envolvendo necessariamente docentes e discentes
-        da UFPR.</p>
-      <p>Princípio V: Impacto na formação dos estudantes visando fortalecer a experiência discente em termos teóricos,
-        metodológicos e da cidadania.</p>
-      <h4>Projeto</h4>
-      <p>Projeto de Extensão é a ação processual e contínua de caráter educativo, social, artístico, científico ou
-        tecnológico que contempla os cinco princípios – Impacto e Transformação; Interação Dialógica;
-        Interedisciplinaridade; Indissociabilidade e Impacto na Formação de estudantes, e visa resultado de mútuo
-        interesse, para a sociedade e para a comunidade acadêmica; pode estar vinculado a um Programa ou ser isolado.
-      </p>
-      <p>Há regras específicas na UFPR para a realização de Projetos e as Resoluções e Instruções Normativas devem ser
-        consultadas.</p>
-    </div>
-  </main>
-</body>
-
+        <h2 class="mt-5 mb-4 title-conteudo">Formas de Extensão</h2>
+        <h4>Evento</h4>
+        <p>
+          Evento de Extensão é a atividade que implica na apresentação ou
+          exibição pública, livre ou com clientela específica, do conhecimento
+          ou produto cultural, artístico, esportivo, científico e tecnológico
+          desenvolvido e reconhecido pela Universidade, de acordo com o
+          estabelecido pelo FORPROEX – Fórum de Pró-Reitores de Extensão das
+          Universidades Públicas Brasileiras.(<a href="#"
+            >Resolução 72/11 – CEPE, Art. 32</a
+          >
+          ). (Classificação dos Eventos de Extensão)
+        </p>
+        <h4>Curso</h4>
+        <p>
+          Curso de Extensão Universitária é a ação pedagógica, de caráter
+          teórico ou prático, planejada e organizada de modo sistemático, com
+          carga horária previamente definida, que contemple o princípio I ou IV
+          ou V dentre os cinco estabelecidos na Resolução 72/11 – CEPE Art. 1º
+          §2º.(Resolução 72/11 – CEPE, Art. 23).
+        </p>
+        <p>
+          Princípio I: Impacto e Transformação que visa o estabelecimento de
+          relação entre a UFPR e os demais segmentos da sociedade para uma
+          atuação transformadora, voltada prioritariamente à formação acadêmica
+          e a necessidades sociais;
+        </p>
+        <p>
+          Princípio IV: Indissociabilidade Ensino, Pesquisa e Extensão que
+          consiste no vínculo da Extensão Universitária ao processo de formação
+          de pessoas e de geração de conhecimento envolvendo necessariamente
+          docentes e discentes da UFPR.
+        </p>
+        <p>
+          Princípio V: Impacto na formação dos estudantes visando fortalecer a
+          experiência discente em termos teóricos, metodológicos e da cidadania.
+        </p>
+        <h4>Programa</h4>
+        <p>
+          Programa de Extensão é o conjunto articulado de Projetos e outras
+          atividades de Extensão, que contemple os cinco princípios
+          estabelecidos no artigo 1º da Resolução 71/11 – CEPE, visando a
+          resultados de mútuo interesse para a sociedade e para a comunidade
+          acadêmica. (Resolução 72/11 – CEPE, Art. 18).
+        </p>
+        <p>
+          Princípio I: Impacto e Transformação que visa o estabelecimento de
+          relação entre a UFPR e os demais segmentos da sociedade para uma
+          atuação transformadora, voltada prioritariamente à formação acadêmica
+          e a necessidades sociais.
+        </p>
+        <p>
+          Princípio II: Interação Dialógica que visa o estabelecimento e
+          desenvolvimento de relação entre a UFPR e os demais segmentos da
+          sociedade por meio do diálogo e da troca de saberes.
+        </p>
+        <p>
+          Princípio III: Interdisciplinaridade que visa o estabelecimento de
+          inter-relação ou integração de conhecimentos, metodologias
+          profissionais no atendimento a demandas formativas e sociais.
+        </p>
+        <p>
+          Princípio IV: Indissociabilidade Ensino, Pesquisa e Extensão que
+          consiste no vínculo da Extensão Universitária ao processo de formação
+          de pessoas e de geração de conhecimento envolvendo necessariamente
+          docentes e discentes da UFPR.
+        </p>
+        <p>
+          Princípio V: Impacto na formação dos estudantes visando fortalecer a
+          experiência discente em termos teóricos, metodológicos e da cidadania.
+        </p>
+        <h4>Projeto</h4>
+        <p>
+          Projeto de Extensão é a ação processual e contínua de caráter
+          educativo, social, artístico, científico ou tecnológico que contempla
+          os cinco princípios – Impacto e Transformação; Interação Dialógica;
+          Interedisciplinaridade; Indissociabilidade e Impacto na Formação de
+          estudantes, e visa resultado de mútuo interesse, para a sociedade e
+          para a comunidade acadêmica; pode estar vinculado a um Programa ou ser
+          isolado.
+        </p>
+        <p>
+          Há regras específicas na UFPR para a realização de Projetos e as
+          Resoluções e Instruções Normativas devem ser consultadas.
+        </p>
+      </div>
+    </main>
+  </body>
 </html>
