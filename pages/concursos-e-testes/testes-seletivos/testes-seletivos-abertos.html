@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SEPT</title>
-    <link rel="stylesheet" href="../../css/reset.css" />
-    <link rel="stylesheet" href="../../css/index.css" />
+    <link rel="stylesheet" href="../../../css/reset.css" />
+    <link rel="stylesheet" href="../../../css/index.css" />
 
     <!-- bootstrap -->
     <link
@@ -171,11 +171,11 @@
               class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
               data-bs-toggle="collapse"
               data-bs-target="#concursos-testes"
-              aria-expanded="false"
+              aria-expanded="true"
             >
               Concursos e Testes
             </button>
-            <div class="collapse" id="concursos-testes">
+            <div class="collapse show" id="concursos-testes">
               <!-- Concursos -->
               <ul class="list-unstyled ps-2">
                 <li class="mb-1">
@@ -194,7 +194,7 @@
                       <li>
                         <a
                           href="/pages/concursos-e-testes/concursos-publicos/concursos-abertos.html"
-                          class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                          class="link-body-emphasis d-inline-flex text-decoration-none rounded "
                           >Concursos Públicos Abertos</a
                         >
                       </li>
@@ -227,18 +227,18 @@
                     class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
                     data-bs-toggle="collapse"
                     data-bs-target="#testes"
-                    aria-expanded="false"
+                    aria-expanded="true"
                   >
                     Testes
                   </button>
-                  <div class="collapse" id="testes">
+                  <div class="collapse show" id="testes">
                     <ul
                       class="btn-toggle-nav list-unstyled fw-normal pb-1 small"
                     >
                       <li>
                         <a
                           href="/pages/concursos-e-testes/testes-seletivos/resolucoes.html"
-                          class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                          class="link-body-emphasis d-inline-flex text-decoration-none rounded "
                           >Resoluções</a
                         >
                       </li>
@@ -246,7 +246,7 @@
                       <li>
                         <a
                           href="/pages/concursos-e-testes/testes-seletivos/testes-seletivos-abertos.html"
-                          class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                          class="link-body-emphasis d-inline-flex text-decoration-none rounded text-decoration-underline fw-bold"
                           >Testes Seletivos Abertos</a
                         >
                       </li>
@@ -492,11 +492,11 @@
               class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
               data-bs-toggle="collapse"
               data-bs-target="#sobre-setor"
-              aria-expanded="true"
+              aria-expanded="false"
             >
               Sobre o setor
             </button>
-            <div class="collapse show" id="sobre-setor">
+            <div class="collapse" id="sobre-setor">
               <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                 <li>
                   <a
@@ -586,68 +586,21 @@
       <div class="mt-2 mb-5 ms-3">
         <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
           <ol class="breadcrumb">
-            <li class="breadcrumb-item">Desenvolvedores</li>
+            <li class="breadcrumb-item">Concursos e testes</li>
+            <li class="breadcrumb-item">Testes seletivos</li>
             <li class="breadcrumb-item active" aria-current="page">
-              Rafael Dias
+              Testes seletivos abertos
             </li>
           </ol>
         </nav>
       </div>
 
-      <div class="card-main" style="max-height: 84vh; overflow: auto">
-        <div class="text-center">
-          <img
-            class="img-perfil"
-            src="../../assets/fotos-perfil/Rafael.jpg"
-            alt="foto-perfil"
-            width="200"
-            height="200"
-          />
-          <h3 class="title-perfil">Rafael Dias</h3>
-          <a
-            href="https://www.linkedin.com/in/rafael-dias-simeoni/"
-            target="_blank"
-          >
-            <img
-              src="../../assets/icones/linkedin.svg"
-              alt=""
-              width="30"
-              height="30"
-              style="border-radius: 10px"
-            />
-          </a>
-        </div>
-
-        <hr />
-
-        <div class="row w-100 justify-content-center">
-          <div class="col-12 col-md-6">
-            <p class="text-center"><strong>Formação Acadêmica</strong></p>
-            <ul>
-              <li>
-                Tecnólogo em Análise e Desenvolvimento de Sistemas - 5º período
-                - Universidade Federal do Paraná - Início: 2021, previsão de
-                conclusão: dezembro de 2023.
-              </li>
-            </ul>
-          </div>
-
-          <div class="col-12 col-md-6 linha-vertical">
-            <p class="text-center"><strong>Formação Profissional</strong></p>
-            <ul>
-              <li>
-                Foursys Projetos e Sistemas em Informática LTDA - Estágio em
-                desenvolvimento Java - Período: abril/2022 - janeiro/2023;
-              </li>
-              <li class="mt-2">
-                Autbank Projetos e consultoria LTDA - Desenvolvedor Java Trainee
-                - Período: Março/2023 - atual.
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <p class="text-center mt-4">Atualizado em 05/2023</p>
+      <div class="card-main">
+        <h2 class="mb-5 title-conteudo">Testes seletivos abertos para docentes</h2>
+        <p>
+            No momento não há inscrições abertas para testes seletivos docentes no SEPT/UFPR. 
+        </p>
+        <a href="./testes-seletivos-realizados.html">Clique aqui para consultar os testes seletivos já realizados</a>
       </div>
     </main>
   </body>
