@@ -563,7 +563,9 @@
       <div class="mt-2 mb-5 ms-3">
         <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
           <ol class="breadcrumb">
-            <li class="breadcrumb-item active" aria-current="page">Newsletter</li>
+            <li class="breadcrumb-item active" aria-current="page">
+              Newsletter
+            </li>
           </ol>
         </nav>
       </div>
@@ -575,7 +577,7 @@
             Seja notificado sobre os avisos e novidades no setor!
           </h6>
 
-          <div>
+          <div class="mb-2">
             <label
               ><strong>Nome</strong
               ><span class="required">*</span>&nbsp;&nbsp;</label
@@ -613,32 +615,37 @@
             />
           </div>
 
-          <label
-            ><strong>E-mail</strong><span class="required">*</span>&nbsp;</label
-          >
-          <input
-            id="email"
-            type="text"
-            name="email"
-            size="37"
-            class="dvm-button"
-            placeholder="Ex: seunome@dominio.com"
-            maxlength="30"
-          />
+          <div class="mb-2">
+            <label
+              ><strong>E-mail</strong
+              ><span class="required">*</span>&nbsp;</label
+            >
+            <input
+              id="email"
+              type="text"
+              name="email"
+              size="37"
+              class="dvm-button"
+              placeholder="Ex: seunome@dominio.com"
+              maxlength="30"
+            />
+          </div>
 
-          <label
-            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Data de nascimento</strong
-            ><span class="required">*</span>&nbsp;</label
-          >
-          <input
-            type="text"
-            name="nascimento"
-            size="1"
-            class="dvm-button"
-            placeholder="Dia"
-            maxlength="2"
-          />
-          /
+          <div class="mb-2">
+            <label
+              >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Data de nascimento</strong
+              ><span class="required">*</span>&nbsp;</label
+            >
+            <input
+              type="text"
+              name="nascimento"
+              size="1"
+              class="dvm-button"
+              placeholder="Dia"
+              maxlength="2"
+            />
+            /
+          </div>
           <select class="dvm-button">
             <option>Mês</option>
             <option value="Janeiro">Janeiro</option>
