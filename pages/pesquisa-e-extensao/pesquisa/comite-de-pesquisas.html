@@ -95,6 +95,7 @@
           <a href="/ihc_site_sept/pages/alunos/alunos.html"
             class="link-body-emphasis d-inline-flex text-decoration-none rounded">Alunos</a>
         </li>
+
         <!-- Concursos e Testes -->
         <li class="mb-1">
           <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
@@ -168,14 +169,14 @@
         <!-- Desenvolvedores -->
         <li class="mb-1">
           <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-            data-bs-toggle="collapse" data-bs-target="#desenvolvedores" aria-expanded="true">
+            data-bs-toggle="collapse" data-bs-target="#desenvolvedores" aria-expanded="false">
             Desenvolvedores
           </button>
-          <div class="collapse show" id="desenvolvedores">
+          <div class="collapse" id="desenvolvedores">
             <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
               <li>
                 <a href="/ihc_site_sept/pages/desenvolvedores/mariane-roesler.html"
-                  class="link-body-emphasis d-inline-flex text-decoration-underline fw-bold rounded">Mariane Roesler</a>
+                  class="link-body-emphasis d-inline-flex text-decoration-none rounded">Mariane Roesler</a>
               </li>
 
               <li>
@@ -220,19 +221,18 @@
         <!-- Pesquisa e Extensão -->
         <li class="mb-1">
           <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-            data-bs-toggle="collapse" data-bs-target="#pesquisa-extensao" aria-expanded="false">
+            data-bs-toggle="collapse" data-bs-target="#pesquisa-extensao" aria-expanded="true">
             Pesquisa e Extensão
           </button>
-          <div class="collapse" id="pesquisa-extensao">
+          <div class="collapse show" id="pesquisa-extensao">
             <!-- Pesquisa -->
             <ul class="list-unstyled ps-2">
               <li class="mb-1">
                 <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-                  data-bs-toggle="collapse" data-bs-target="#pesquisa" aria-expanded="false">
+                  data-bs-toggle="collapse" data-bs-target="#pesquisa" aria-expanded="true">
                   Pesquisa
                 </button>
-                <div class="collapse" id="pesquisa">
-
+                <div class="collapse show" id="pesquisa">
                   <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                     <li>
                       <a href="/ihc_site_sept/pages/pesquisa-e-extensao/pesquisa/auxilio-e-fomento.html"
@@ -242,8 +242,7 @@
                     </li>
 
                     <li>
-                      <a href="/ihc_site_sept/pages/pesquisa-e-extensao/pesquisa/comite-de-pesquisas.html"
-                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Comitê de
+                      <a href="/ihc_site_sept/pages/pesquisa-e-extensao/pesquisa/comite-de-pesquisas.html" class="link-body-emphasis d-inline-flex text-decoration-underline fw-bold">Comitê de
                         pesquisa</a>
                     </li>
 
@@ -255,8 +254,7 @@
                     </li>
 
                     <li>
-                      <a href="/ihc_site_sept/pages/pesquisa-e-extensao/pesquisa/grupos-de-pesquisa.html"
-                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Iniciação
+                      <a href="/ihc_site_sept/pages/pesquisa-e-extensao/pesquisa/grupos-de-pesquisa.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Iniciação
                         científica</a>
                     </li>
 
@@ -267,8 +265,7 @@
                     </li>
 
                     <li>
-                      <a href="/ihc_site_sept/pages/pesquisa-e-extensao/pesquisa/projetos-de-pesquisa.html"
-                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Projetos de
+                      <a href="/ihc_site_sept/pages/pesquisa-e-extensao/pesquisa/projetos-de-pesquisa.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Projetos de
                         pesquisa</a>
                     </li>
                   </ul>
@@ -298,7 +295,8 @@
 
                     <li>
                       <a href="/ihc_site_sept/pages/pesquisa-e-extensao/extensao/entendendo-a-extensao.html"
-                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Entendendo a extensão</a>
+                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Entendendo
+                        a extensão</a>
                     </li>
 
                     <li>
@@ -333,8 +331,7 @@
               </li>
 
               <li>
-                <a href="/ihc_site_sept/pages/sobre-setor/contatos.html"
-                  class="link-body-emphasis d-inline-flex text-decoration-none rounded">Contato</a>
+                <a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Contato</a>
               </li>
 
               <li>
@@ -343,8 +340,7 @@
               </li>
 
               <li>
-                <a href="/ihc_site_sept/pages/sobre-setor/cursos.html"
-                  class="link-body-emphasis d-inline-flex text-decoration-none rounded">Cursos</a>
+                <a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Cursos</a>
               </li>
 
               <li>
@@ -353,8 +349,7 @@
               </li>
 
               <li>
-                <a href="/ihc_site_sept/pages/sobre-setor/sistemas.html"
-                  class="link-body-emphasis d-inline-flex text-decoration-none rounded">Sistemas</a>
+                <a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Sistemas</a>
               </li>
 
               <li>
@@ -387,60 +382,312 @@
     <div class="mt-2 mb-5 ms-3">
       <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
         <ol class="breadcrumb">
-          <li class="breadcrumb-item">Desenvolvedores</li>
+          <li class="breadcrumb-item">Pesquisa e extensão</li>
+          <li class="breadcrumb-item">Pesquisa</li>
           <li class="breadcrumb-item active" aria-current="page">
-            Mariane Roesler
+            Comitê de Pesquisas
           </li>
         </ol>
       </nav>
     </div>
 
     <div class="card-main" style="max-height: 82vh; overflow: auto">
-      <div class="text-center">
-        <img class="img-perfil" src="../../assets/fotos-perfil/Mariane.jpg" alt="foto-perfil" width="200"
-          height="200" />
-        <h3 class="title-perfil">Mariane Roesler</h3>
-        <a href="https://www.linkedin.com/in/mariane-roesler-4a7a29201" target="_blank">
-          <img src="../../assets/icones/linkedin.svg" alt="" width="30" height="30" style="border-radius: 10px" />
-        </a>
+      <div class="">
+        <h2 class="title-conteudo">
+          O Comitê de Pesquisas
+        </h2>
+        <p>
+          O Comitê Setorial de Pesquisa atende os assuntos referentes a auxílio para participação e organização de
+          eventos,
+          elaboração de projetos de pesquisa e divulgação dos resultados das atividades de pesquisa do SEPT.
+        </p>
+        <p>
+          O Comitê também atua na comunicação do setor com a PRPPG (Pró Reitoria de Pesquisa e Pós Graduação) da UFPR.
+        </p>
+        <p>
+          O Comitê se reúne regularmente para aprovação de projetos e relatórios de pesquisa do SEPT.
+        </p>
+        <p>
+          <b>
+            Obs.: A fim de possibilitar as análises e pareceres do CSP – Comitê Setorial de Pesquisa, em tempo hábil, o
+            processo de encaminhamento do projeto de pesquisa do professor deve ser submetido ao CSP até a data
+            constante na coluna “Prazo Final Submissão via SEI ao CSP”. Os processos encaminhados ao CSP após esta data
+            não serão deliberados na reunião prevista na coluna “Data da reunião do CSP”.
+          </b>
+        </p>
+
+        <p>
+          <a href="">Clique aqui para acessar as pautas e Atas do Conselho Setorial de Pesquisas SCP e SEPT</a>
+        </p>
+
+        <p>
+          <a href="">Clique aqui para acessar o cronograma das reuniões do comitê Setorial de Pesquisa CSP SEPT</a>
+        </p>
+
+        <hr>
+
       </div>
 
-      <hr />
+      <div class="">
+        <br>
+        <h2 class="title-conteudo">
+          Membros do Comitê Setorial de Pesquisa
+        </h2>
+        <br>
 
-      <div class="row w-100 justify-content-center">
-        <div class="col-12 col-md-6">
-          <p class="text-center"><strong>Formação Acadêmica</strong></p>
-          <ul>
-            <li>
-              Técnico em Eletrônica com Ensino Médio Integrado - Universidade
-              Tecnológica Federal do Paraná - 2017 - 2021;
-            </li>
-            <li class="mt-2">
-              Tecnologia em Análise e Desenvolvimento de Sistemas - 3º período
-              - Universidade Federal do Paraná - 2022 - Atual.
-            </li>
-          </ul>
-        </div>
 
-        <div class="col-12 col-md-6 linha-vertical">
-          <p class="text-center"><strong>Formação Profissional</strong></p>
-          <ul>
-            <li>
-              Copel Telecomunicações - Estagiária em Eletrônica - 02/2020 –
-              01/2021;
-            </li>
+        <p><strong>PRESIDÊNCIA DO COMITÊ SETORIAL DE PESQUISA (CSPq) – SEPT/UFPR</strong></p>
+        <table class="table table-bordered">
+          <tbody>
+            <tr>
+              <th><strong>Nome</strong></th>
+              <th><strong>Função</strong></th>
+              <th><strong>Portaria</strong></th>
+              <th><strong>Validade</strong></th>
+              <th><strong>Link</strong></th>
+            </tr>
+            <tr>
+              <td>Profa. Luci Regina Panka Archegas</td>
+              <td>TITULAR</td>
+              <td>68/2021</td>
+              <td>20/07/2023</td>
+              <td><a href="http://www.sept.ufpr.br/portal/wp-content/uploads/2017/06/Portaria-068-2021-SEPT.pdf"
+                  target="_blank">Portaria</a></td>
+            </tr>
+            <tr>
+              <td>Profa. Cristiane dos Santos Souza</td>
+              <td>SUPLENTE</td>
+              <td>68/2021</td>
+              <td>20/07/2023</td>
+              <td><a href="http://www.sept.ufpr.br/portal/wp-content/uploads/2017/06/Portaria-068-2021-SEPT.pdf"
+                  target="_blank">Portaria</a></td>
+            </tr>
+          </tbody>
+        </table>
 
-            <li class="my-2">
-              Electrolux do Brasil - Alimentador de linha de produção
-              (Aprendiz) - 11/2021 – 11/2022;
-            </li>
+        <br>
 
-            <li>AOA Tech Partners - Estagiária em QA - 11/2022 - Atual;</li>
-          </ul>
-        </div>
+        <p><strong>REPRESENTANTES NO COMITÊ ASSESSOR DE PESQUISA (CAPq) – PRPPG/UFPR</strong></p>
+        <table class="table table-bordered">
+          <tbody>
+            <tr>
+              <th><strong>Nome</strong></th>
+              <th><strong>Função</strong></th>
+              <th><strong>Portaria</strong></th>
+              <th><strong>Validade</strong></th>
+              <th><strong>Link para a Portaria</strong></th>
+            </tr>
+            <tr>
+              <td>Profa. Luci Regina Panka Archegas</td>
+              <td>TITULAR</td>
+              <td>69/2021</td>
+              <td>20/07/2023</td>
+              <td><a href="http://www.sept.ufpr.br/portal/wp-content/uploads/2017/06/Portaria-069-2021-SEPT.pdf"
+                  target="_blank">Portaria</a></td>
+            </tr>
+            <tr>
+              <td>Prof. José Roberto do Carmo Júnior</td>
+              <td>SUPLENTE</td>
+              <td>69/2021</td>
+              <td>20/07/2023</td>
+              <td><a href="http://www.sept.ufpr.br/portal/wp-content/uploads/2017/06/Portaria-069-2021-SEPT.pdf"
+                  target="_blank">Portaria</a></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <br>
+
+        <p><strong>REPRESENTANTES NO COMITÊ ASSESSOR
+            DE&nbsp;INICIAÇÃO CIENTÍFICA (CAIC) – PRPPG/UFPR</strong></p>
+        <table class="table table-bordered">
+          <tbody>
+            <tr>
+              <th><strong>Nome</strong></th>
+              <th><strong>Função</strong></th>
+              <th><strong>Portaria</strong></th>
+              <th><strong>Validade</strong></th>
+              <th><strong>Link para a Portaria</strong></th>
+            </tr>
+            <tr>
+              <td>Profa. Cristiane dos Santos Souza</td>
+              <td>TITULAR</td>
+              <td>70/2021</td>
+              <td>20/07/2023</td>
+              <td><a href="http://www.sept.ufpr.br/portal/wp-content/uploads/2017/06/Portaria-070-2021-SEPT.pdf"
+                  target="_blank">Portaria</a></td>
+            </tr>
+            <tr>
+              <td>Prof. José Elmar Feger</td>
+              <td>SUPLENTE</td>
+              <td>70/2021</td>
+              <td>20/07/2023</td>
+              <td><a href="http://www.sept.ufpr.br/portal/wp-content/uploads/2017/06/Portaria-070-2021-SEPT.pdf"
+                  target="_blank">Portaria</a></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <br>
+
+        <p><strong>REPRESENTANTES POR CURSO NO COMITÊ SETORIAL DE PESQUISA (CSPq/SEPT/UFPR)</strong></p>
+        <table class="table table-bordered">
+          <tbody>
+            <tr>
+              <th><strong>Nome do Curso</strong></th>
+              <th><strong>Portaria</strong></th>
+              <th><strong>Validade</strong></th>
+              <th><strong>Nome do Professor</strong></th>
+            </tr>
+            <tr>
+              <td><a href="http://www.sept.ufpr.br/portal/petroleogas/sobre-o-curso/" target="_blank">Curso Técnico
+                  Petróleo e Gás Integrado ao Ensino Médio (TPG)</a></td>
+              <td>129/2021</td>
+              <td>13/12/2023</td>
+              <td>profa. Sandra Eleine Romais Leonardi (titular)<br><em>profa. Simone Valaski (suplente)</em></td>
+            </tr>
+            <tr>
+              <td><a href="http://www.sept.ufpr.br/portal/agentesaude/sobre-o-curso/" target="_blank">Curso Agente
+                  Comunitário de Saúde (TACS)</a></td>
+              <td>40/2023 SEPT</td>
+              <td>09/05/2023 até 31/12/2023</td>
+              <td>profa. Luci Regina Panka Archegas (titular)<br><em>profa. Silvia Cristina Sprengel de Alencar
+                  (suplente)</em></td>
+            </tr>
+            <tr>
+              <td><a href="http://www.sept.ufpr.br/portal/comunicacaoinstitucional/sobre-o-curso/" target="_blank">Curso
+                  Superior Tecnologia em Comunicação Institucional (TCI)</a></td>
+              <td>20/2023 SEPT</td>
+              <td>27/03/2024</td>
+              <td>profa. Ana Carolina de Araújo e Silva (titular)<br><em>profa. Letícia Salém Hermann Lima
+                  (suplente)</em></td>
+            </tr>
+            <tr>
+              <td><a href="http://www.sept.ufpr.br/portal/gestaoqualidade/sobre-o-curso/" target="_blank">Curso Superior
+                  Tecnologia em Gestão da Qualidade (TGQ)</a></td>
+              <td>56/2021</td>
+              <td>05/07/2023</td>
+              <td>prof. José Elmar Feger (titular)<br><em>profa. Carla Regina Mazia Rosa (suplente)</em></td>
+            </tr>
+            <tr>
+              <td><a href="http://www.sept.ufpr.br/portal/gestaopublica/sobre-o-curso/" target="_blank">Curso Superior
+                  Tecnologia em Gestão Pública (TGP)</a></td>
+              <td>100/2021</td>
+              <td>05/10/2023</td>
+              <td>prof. Guilherme Ricardo dos Santos Souza e Silva (titular)<br><em>profa. Cleci Körbes (suplente)</em>
+              </td>
+            </tr>
+            <tr>
+              <td><a href="http://www.sept.ufpr.br/portal/producaocenica/sobre-o-curso/" target="_blank">Curso Superior
+                  Tecnologia em Produção Cênica (TPC)</a></td>
+              <td>87/2021</td>
+              <td>20/09/2023</td>
+              <td>profa. Cristiane dos Santos Souza (titular)<br><em>prof. Allan Valenza da Silveira (suplente)</em>
+              </td>
+            </tr>
+            <tr>
+              <td><a href="http://www.sept.ufpr.br/portal/negociosimobiliarios/sobre-o-curso/" target="_blank">Curso
+                  Superior Tecnologia em Negócios Imobiliários (TNI)</a></td>
+              <td>65/2021</td>
+              <td>13/07/2023</td>
+              <td>profa. Bettina Augusta Amorim Bulzico Battaglin (titular)<br><em>profa. Silvana Maria Carbonera
+                  (suplente)</em></td>
+            </tr>
+            <tr>
+              <td><a href="http://www.sept.ufpr.br/portal/secretariado/sobre-o-curso/" target="_blank">Curso Superior
+                  Tecnologia em Secretariado (TSE)</a></td>
+              <td>123/2021</td>
+              <td>30/11/2023</td>
+              <td>profa. Fernanda Landolfi Maia (titular)<br><em>profa. Zélia Freiberger (suplente)</em></td>
+            </tr>
+            <tr>
+              <td><a href="http://www.sept.ufpr.br/portal/analisesistemas/sobre-o-curso/" target="_blank">Curso Superior
+                  Tecnologia em Análise e Desenvolvimento de Sistemas (TADS)</a></td>
+              <td>132/2021</td>
+              <td>17/12/2023</td>
+              <td>prof. Luiz Antonio Pereira Neves (titular)<br><em>prof. Mario de Paula Soares Filho (suplente)</em>
+              </td>
+            </tr>
+            <tr>
+              <td><a href="http://www.sept.ufpr.br/portal/luteria/sobre-o-curso/" target="_blank">Curso Superior
+                  Tecnologia em Luteria (LUTERIA)</a></td>
+              <td>50/2022</td>
+              <td>29/07/2023</td>
+              <td>prof. José Roberto do Carmo Junior (titular)<br><em>prof. Juarez Bergmann Filho (suplente)</em></td>
+            </tr>
+            <tr>
+              <td>Programa de Pós-Graduação Strito Sensu em <a href="http://www.bioinfo.ufpr.br/"
+                  target="_blank">Bioinformática</a></td>
+              <td>04/2021</td>
+              <td>31/12/2021 (*)</td>
+              <td>profa. Jeroniza Nunes Marchaukoski (titular)</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <br>
+        <hr>
+        <br>
+
+        <h2 class="title-conteudo">
+          Resoluções de Pesquisa
+        </h2>
+        <br>
+        <ul>
+          <li>Resolução 25/2020 CEPE – Cria e regulamenta o funcionamento do Comitê Assessor de Pesquisa (CAPq),
+            do Comitê Assessor de Iniciação Científica (CAIC), dos Comitês Setoriais de Pesquisa (CSPq) e estabelece
+            critérios para sua composição, atribuição e dá outras providências.</li>
+          <li>
+            <a href="http://www.soc.ufpr.br/portal/wp-content/uploads/2016/07/resolucao_cepe_20081999-67.pdf">
+              Comitês Central e Setoriais de Ética em Pesquisa Envolvendo Seres Humanos
+              (Resolução nº 75/99-CEPE)
+            </a>
+          </li>
+          <li>
+            <a href="http://www.soc.ufpr.br/portal/wp-content/uploads/2016/07/resolucao_coun_03092004-106.pdf">
+              Plano Institucional de Pesquisa UFPR (Resolução nº 51/04-COUN)
+            </a>
+          </li>
+          <li>
+            <a href="http://www.sept.ufpr.br/portal/wp-content/uploads/2017/06/UFPR_IN_03_2020_PRPPG.pdf">
+              Instrução Normativa n. 03 CPDCT/PRPPG/UFPR</a>, atualização em 23 de julho de 2020, que dispõe sobre os
+            requisitos mínimos para cadastro e aprovação de projetos de pesquisa na UFPR
+          </li>
+          <li>
+            <a href="http://www.soc.ufpr.br/portal/wp-content/uploads/2016/07/resolucao_cepe_08121981-93.pdf">
+              Normas para Elaboração dos Formulários relativos ao banco de Pesquisa da UFPR (Resolução nº 82/81-CEP)
+            </a>
+          </li>
+          <li>
+            <a href="http://www.soc.ufpr.br/portal/wp-content/uploads/2016/07/resolucao_cepe_27081985-92.pdf">
+              Normas para Elaboração dos Formulários relativos ao banco de Pesquisas. (Resolução nº 27/85-CEPE)
+            </a>
+          </li>
+        </ul>
+
+        <br>
+        <hr>
+        <br>
+
+        <h2 class="title-conteudo">
+          Elaboração de Projeto de Pesquisa na UFPR
+        </h2>
+        <br>
+        <ul>
+          <li>
+            <a href="http://www.prppg.ufpr.br/site/instrucoes-normativas/">
+              Instruções normativas para elaboração de projetos de pesquisa CPDCT/PRPPG
+            </a>
+          </li>
+          <li>
+            <a href="http://www.prppg.ufpr.br/site/banco-de-projetos-de-pesquisa/">
+              Acesso ao Banco de Projetos de Pesquisa
+            </a>
+          </li>
+        </ul>
+
       </div>
-
-      <p class="text-center mt-4">Atualizado em 05/2023</p>
+    </div>
     </div>
   </main>
 </body>

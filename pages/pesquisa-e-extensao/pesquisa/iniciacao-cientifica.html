@@ -95,6 +95,7 @@
           <a href="/ihc_site_sept/pages/alunos/alunos.html"
             class="link-body-emphasis d-inline-flex text-decoration-none rounded">Alunos</a>
         </li>
+
         <!-- Concursos e Testes -->
         <li class="mb-1">
           <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
@@ -168,14 +169,14 @@
         <!-- Desenvolvedores -->
         <li class="mb-1">
           <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-            data-bs-toggle="collapse" data-bs-target="#desenvolvedores" aria-expanded="true">
+            data-bs-toggle="collapse" data-bs-target="#desenvolvedores" aria-expanded="false">
             Desenvolvedores
           </button>
-          <div class="collapse show" id="desenvolvedores">
+          <div class="collapse" id="desenvolvedores">
             <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
               <li>
                 <a href="/ihc_site_sept/pages/desenvolvedores/mariane-roesler.html"
-                  class="link-body-emphasis d-inline-flex text-decoration-underline fw-bold rounded">Mariane Roesler</a>
+                  class="link-body-emphasis d-inline-flex text-decoration-none rounded">Mariane Roesler</a>
               </li>
 
               <li>
@@ -220,19 +221,18 @@
         <!-- Pesquisa e Extensão -->
         <li class="mb-1">
           <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-            data-bs-toggle="collapse" data-bs-target="#pesquisa-extensao" aria-expanded="false">
+            data-bs-toggle="collapse" data-bs-target="#pesquisa-extensao" aria-expanded="true">
             Pesquisa e Extensão
           </button>
-          <div class="collapse" id="pesquisa-extensao">
+          <div class="collapse show" id="pesquisa-extensao">
             <!-- Pesquisa -->
             <ul class="list-unstyled ps-2">
               <li class="mb-1">
                 <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-                  data-bs-toggle="collapse" data-bs-target="#pesquisa" aria-expanded="false">
+                  data-bs-toggle="collapse" data-bs-target="#pesquisa" aria-expanded="true">
                   Pesquisa
                 </button>
-                <div class="collapse" id="pesquisa">
-
+                <div class="collapse show" id="pesquisa">
                   <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                     <li>
                       <a href="/ihc_site_sept/pages/pesquisa-e-extensao/pesquisa/auxilio-e-fomento.html"
@@ -242,8 +242,7 @@
                     </li>
 
                     <li>
-                      <a href="/ihc_site_sept/pages/pesquisa-e-extensao/pesquisa/comite-de-pesquisas.html"
-                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Comitê de
+                      <a href="/ihc_site_sept/pages/pesquisa-e-extensao/pesquisa/comite-de-pesquisas.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Comitê de
                         pesquisa</a>
                     </li>
 
@@ -255,8 +254,7 @@
                     </li>
 
                     <li>
-                      <a href="/ihc_site_sept/pages/pesquisa-e-extensao/pesquisa/grupos-de-pesquisa.html"
-                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Iniciação
+                      <a href="/ihc_site_sept/pages/pesquisa-e-extensao/pesquisa/grupos-de-pesquisa.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded text-decoration-underline fw-bold">Iniciação
                         científica</a>
                     </li>
 
@@ -267,8 +265,7 @@
                     </li>
 
                     <li>
-                      <a href="/ihc_site_sept/pages/pesquisa-e-extensao/pesquisa/projetos-de-pesquisa.html"
-                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Projetos de
+                      <a href="/ihc_site_sept/pages/pesquisa-e-extensao/pesquisa/projetos-de-pesquisa.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Projetos de
                         pesquisa</a>
                     </li>
                   </ul>
@@ -298,7 +295,8 @@
 
                     <li>
                       <a href="/ihc_site_sept/pages/pesquisa-e-extensao/extensao/entendendo-a-extensao.html"
-                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Entendendo a extensão</a>
+                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Entendendo
+                        a extensão</a>
                     </li>
 
                     <li>
@@ -333,8 +331,7 @@
               </li>
 
               <li>
-                <a href="/ihc_site_sept/pages/sobre-setor/contatos.html"
-                  class="link-body-emphasis d-inline-flex text-decoration-none rounded">Contato</a>
+                <a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Contato</a>
               </li>
 
               <li>
@@ -343,8 +340,7 @@
               </li>
 
               <li>
-                <a href="/ihc_site_sept/pages/sobre-setor/cursos.html"
-                  class="link-body-emphasis d-inline-flex text-decoration-none rounded">Cursos</a>
+                <a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Cursos</a>
               </li>
 
               <li>
@@ -353,8 +349,7 @@
               </li>
 
               <li>
-                <a href="/ihc_site_sept/pages/sobre-setor/sistemas.html"
-                  class="link-body-emphasis d-inline-flex text-decoration-none rounded">Sistemas</a>
+                <a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Sistemas</a>
               </li>
 
               <li>
@@ -387,60 +382,55 @@
     <div class="mt-2 mb-5 ms-3">
       <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
         <ol class="breadcrumb">
-          <li class="breadcrumb-item">Desenvolvedores</li>
+          <li class="breadcrumb-item">Pesquisa e extensão</li>
+          <li class="breadcrumb-item">Pesquisa</li>
           <li class="breadcrumb-item active" aria-current="page">
-            Mariane Roesler
+            Iniciação Científica
           </li>
         </ol>
       </nav>
     </div>
 
     <div class="card-main" style="max-height: 82vh; overflow: auto">
-      <div class="text-center">
-        <img class="img-perfil" src="../../assets/fotos-perfil/Mariane.jpg" alt="foto-perfil" width="200"
-          height="200" />
-        <h3 class="title-perfil">Mariane Roesler</h3>
-        <a href="https://www.linkedin.com/in/mariane-roesler-4a7a29201" target="_blank">
-          <img src="../../assets/icones/linkedin.svg" alt="" width="30" height="30" style="border-radius: 10px" />
-        </a>
+      <div class="">
+        <h2 class="title-conteudo">
+          Iniciação Científica
+        </h2>
+        <br>
+        <p>
+          A iniciação científica consiste na participação do discente em projetos de pesquisa sob a orientação de um
+          docente com reconhecida produção intelectual.
+        </p>
+        <p>
+          Recomenda-se que o aluno interessado procure se informar a respeito dos projetos de pesquisa desenvolvidos no
+          SEPT,
+          e então entre em contato com o docente responsável pelo projeto que lhe despertou mais interesse.
+        </p>
+
+        <p>
+          Compete ao docente atualizar o currículo Lattes, escrever o projeto de pesquisa e submetê-lo ao edital
+          corrente, para que possa concorrer a quota de bolsas.
+        </p>
+
+        <p>
+          Para mais informações sobre editais, prazos e bolsas, consulte a página da Iniciação Científica no site da
+          PRPPG, conforme links abaixo.
+        </p>
+
+        <p>
+          <b>
+            Coordenadoria de iniciação científica e integração acadêmica: <br>
+            <a href="http://www.prppg.ufpr.br/site/ic/"> http://www.prppg.ufpr.br/site/ic/</a>
+          </b>
+        </p>
+        <p>
+          <b>
+            Sistema de iniciação científica e tecnológica: <br>
+            <a href="http://www.prppg.ufpr.br/sict/">http://www.prppg.ufpr.br/sict/</a>
+          </b>
+        </p>
+
       </div>
-
-      <hr />
-
-      <div class="row w-100 justify-content-center">
-        <div class="col-12 col-md-6">
-          <p class="text-center"><strong>Formação Acadêmica</strong></p>
-          <ul>
-            <li>
-              Técnico em Eletrônica com Ensino Médio Integrado - Universidade
-              Tecnológica Federal do Paraná - 2017 - 2021;
-            </li>
-            <li class="mt-2">
-              Tecnologia em Análise e Desenvolvimento de Sistemas - 3º período
-              - Universidade Federal do Paraná - 2022 - Atual.
-            </li>
-          </ul>
-        </div>
-
-        <div class="col-12 col-md-6 linha-vertical">
-          <p class="text-center"><strong>Formação Profissional</strong></p>
-          <ul>
-            <li>
-              Copel Telecomunicações - Estagiária em Eletrônica - 02/2020 –
-              01/2021;
-            </li>
-
-            <li class="my-2">
-              Electrolux do Brasil - Alimentador de linha de produção
-              (Aprendiz) - 11/2021 – 11/2022;
-            </li>
-
-            <li>AOA Tech Partners - Estagiária em QA - 11/2022 - Atual;</li>
-          </ul>
-        </div>
-      </div>
-
-      <p class="text-center mt-4">Atualizado em 05/2023</p>
     </div>
   </main>
 </body>

@@ -95,6 +95,7 @@
           <a href="/ihc_site_sept/pages/alunos/alunos.html"
             class="link-body-emphasis d-inline-flex text-decoration-none rounded">Alunos</a>
         </li>
+
         <!-- Concursos e Testes -->
         <li class="mb-1">
           <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
@@ -168,14 +169,14 @@
         <!-- Desenvolvedores -->
         <li class="mb-1">
           <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-            data-bs-toggle="collapse" data-bs-target="#desenvolvedores" aria-expanded="true">
+            data-bs-toggle="collapse" data-bs-target="#desenvolvedores" aria-expanded="false">
             Desenvolvedores
           </button>
-          <div class="collapse show" id="desenvolvedores">
+          <div class="collapse" id="desenvolvedores">
             <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
               <li>
                 <a href="/ihc_site_sept/pages/desenvolvedores/mariane-roesler.html"
-                  class="link-body-emphasis d-inline-flex text-decoration-underline fw-bold rounded">Mariane Roesler</a>
+                  class="link-body-emphasis d-inline-flex text-decoration-none rounded">Mariane Roesler</a>
               </li>
 
               <li>
@@ -220,30 +221,28 @@
         <!-- Pesquisa e Extensão -->
         <li class="mb-1">
           <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-            data-bs-toggle="collapse" data-bs-target="#pesquisa-extensao" aria-expanded="false">
+            data-bs-toggle="collapse" data-bs-target="#pesquisa-extensao" aria-expanded="true">
             Pesquisa e Extensão
           </button>
-          <div class="collapse" id="pesquisa-extensao">
+          <div class="collapse show" id="pesquisa-extensao">
             <!-- Pesquisa -->
             <ul class="list-unstyled ps-2">
               <li class="mb-1">
                 <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-                  data-bs-toggle="collapse" data-bs-target="#pesquisa" aria-expanded="false">
+                  data-bs-toggle="collapse" data-bs-target="#pesquisa" aria-expanded="true">
                   Pesquisa
                 </button>
-                <div class="collapse" id="pesquisa">
-
+                <div class="collapse show" id="pesquisa">
                   <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                     <li>
                       <a href="/ihc_site_sept/pages/pesquisa-e-extensao/pesquisa/auxilio-e-fomento.html"
-                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Auxílio
+                        class="link-body-emphasis d-inline-flex text-decoration-none rounded text-decoration-underline fw-bold">Auxílio
                         e
                         Fomento</a>
                     </li>
 
                     <li>
-                      <a href="/ihc_site_sept/pages/pesquisa-e-extensao/pesquisa/comite-de-pesquisas.html"
-                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Comitê de
+                      <a href="/ihc_site_sept/pages/pesquisa-e-extensao/pesquisa/comite-de-pesquisas.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Comitê de
                         pesquisa</a>
                     </li>
 
@@ -255,8 +254,7 @@
                     </li>
 
                     <li>
-                      <a href="/ihc_site_sept/pages/pesquisa-e-extensao/pesquisa/grupos-de-pesquisa.html"
-                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Iniciação
+                      <a href="/ihc_site_sept/pages/pesquisa-e-extensao/pesquisa/grupos-de-pesquisa.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Iniciação
                         científica</a>
                     </li>
 
@@ -267,8 +265,7 @@
                     </li>
 
                     <li>
-                      <a href="/ihc_site_sept/pages/pesquisa-e-extensao/pesquisa/projetos-de-pesquisa.html"
-                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Projetos de
+                      <a href="/ihc_site_sept/pages/pesquisa-e-extensao/pesquisa/projetos-de-pesquisa.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Projetos de
                         pesquisa</a>
                     </li>
                   </ul>
@@ -298,7 +295,8 @@
 
                     <li>
                       <a href="/ihc_site_sept/pages/pesquisa-e-extensao/extensao/entendendo-a-extensao.html"
-                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Entendendo a extensão</a>
+                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Entendendo
+                        a extensão</a>
                     </li>
 
                     <li>
@@ -333,8 +331,7 @@
               </li>
 
               <li>
-                <a href="/ihc_site_sept/pages/sobre-setor/contatos.html"
-                  class="link-body-emphasis d-inline-flex text-decoration-none rounded">Contato</a>
+                <a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Contato</a>
               </li>
 
               <li>
@@ -343,8 +340,7 @@
               </li>
 
               <li>
-                <a href="/ihc_site_sept/pages/sobre-setor/cursos.html"
-                  class="link-body-emphasis d-inline-flex text-decoration-none rounded">Cursos</a>
+                <a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Cursos</a>
               </li>
 
               <li>
@@ -353,8 +349,7 @@
               </li>
 
               <li>
-                <a href="/ihc_site_sept/pages/sobre-setor/sistemas.html"
-                  class="link-body-emphasis d-inline-flex text-decoration-none rounded">Sistemas</a>
+                <a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Sistemas</a>
               </li>
 
               <li>
@@ -387,60 +382,95 @@
     <div class="mt-2 mb-5 ms-3">
       <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
         <ol class="breadcrumb">
-          <li class="breadcrumb-item">Desenvolvedores</li>
+          <li class="breadcrumb-item">Pesquisa e extensão</li>
+          <li class="breadcrumb-item">Pesquisa</li>
           <li class="breadcrumb-item active" aria-current="page">
-            Mariane Roesler
+            Auxílio e Fomento
           </li>
         </ol>
       </nav>
     </div>
 
     <div class="card-main" style="max-height: 82vh; overflow: auto">
-      <div class="text-center">
-        <img class="img-perfil" src="../../assets/fotos-perfil/Mariane.jpg" alt="foto-perfil" width="200"
-          height="200" />
-        <h3 class="title-perfil">Mariane Roesler</h3>
-        <a href="https://www.linkedin.com/in/mariane-roesler-4a7a29201" target="_blank">
-          <img src="../../assets/icones/linkedin.svg" alt="" width="30" height="30" style="border-radius: 10px" />
-        </a>
+      <div class="">
+        <h2 class="mb-5 title-conteudo">PRPPG (Pró-reitoria de Pesquisa e Pós-graduação)</h2>
+        <p>
+          A Coordenadoria de Pesquisa da PRPPG presta auxílios <a
+            href="http://www.prppg.ufpr.br/site/pesquisa/participacao_organizacao_eventos/"> tanto para a participação
+            quanto para a organização de
+            eventos. </a>
+          <br>
+          <br>
+          Sempre que participar do edital informe o presidente do Comitê Setorial de Pesquisa, uma vez que este faz
+          parte
+          do Comitê Assessor de Pesquisa, o qual julga os pedidos.
+        </p>
       </div>
 
-      <hr />
-
-      <div class="row w-100 justify-content-center">
-        <div class="col-12 col-md-6">
-          <p class="text-center"><strong>Formação Acadêmica</strong></p>
-          <ul>
-            <li>
-              Técnico em Eletrônica com Ensino Médio Integrado - Universidade
-              Tecnológica Federal do Paraná - 2017 - 2021;
-            </li>
-            <li class="mt-2">
-              Tecnologia em Análise e Desenvolvimento de Sistemas - 3º período
-              - Universidade Federal do Paraná - 2022 - Atual.
-            </li>
-          </ul>
-        </div>
-
-        <div class="col-12 col-md-6 linha-vertical">
-          <p class="text-center"><strong>Formação Profissional</strong></p>
-          <ul>
-            <li>
-              Copel Telecomunicações - Estagiária em Eletrônica - 02/2020 –
-              01/2021;
-            </li>
-
-            <li class="my-2">
-              Electrolux do Brasil - Alimentador de linha de produção
-              (Aprendiz) - 11/2021 – 11/2022;
-            </li>
-
-            <li>AOA Tech Partners - Estagiária em QA - 11/2022 - Atual;</li>
-          </ul>
-        </div>
+      <div class="mt-5">
+        <h2 class="mb-5 title-conteudo">CNPq</h2>
+        <p>
+          O Conselho Nacional de Desenvolvimento Científico e Tecnológico é um órgão ligado ao Ministério da Ciência,
+          Tecnologia e Inovação (MCTI) para incentivo à pesquisa no Brasil. Diversos editais são abertos durante o ano,
+          permitindo tanto a participação individual quanto institucional conforme o caso.
+          <br>
+          <br>
+          <a
+            href="http://200.17.200.17/wa_files/Manual_20de_20Solicita_C3_A7_C3_A3o_20de_20Aux_C3_ADlio_20do_20CNPQ.pdf">
+            Manual
+            para Solicitação de Auxílio ao CNPQ</a>
+          <br>
+          <br>
+          Inscrições nos editais pode ser feita por meio da <a href="http://www.periodicos.capes.gov.br/ "> Plataforma
+            Carlos Chagas </a>, cujos dados de acesso são os
+          mesmos da Plataforma Lattes.
+        </p>
       </div>
 
-      <p class="text-center mt-4">Atualizado em 05/2023</p>
+      <div class="mt-5">
+        <h2 class="mb-5 title-conteudo">CAPES</h2>
+        <p>
+          A Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES) é uma agência de fomento à pesquisa
+          brasileira que atua na expansão e consolidação da pós-graduação stricto sensu (mestrado e doutorado) em todos
+          os estados do país. Boa parte dos editais é voltada à
+          formação e ao aperfeiçoamento por meio de cursos ou estágios envolvendo pós-graduação.
+          <br>
+          <br>
+          Acesso ao Portal de Periódicos em <a href="http://www.periodicos.capes.gov.br/">
+            http://www.periodicos.capes.gov.br/ </a>
+          <br>
+          <br>
+          Sistema WebQualis para classificação de periódicos <a
+            href="http://qualis.capes.gov.br/webqualis/principal.seam ">
+            http://qualis.capes.gov.br/webqualis/principal.seam </a>
+        </p>
+      </div>
+
+      <div class="mt-5">
+        <h2 class="mb-5 title-conteudo">FUNDAÇÃO ARAUCÁRIA</h2>
+        <p>
+          A Fundação Araucária é a agência estadual que promove o desenvolvimento científico e tecnológico no estado do
+          Paraná.
+        </p>
+      </div>
+
+      <div class="mt-5">
+        <h2 class="mb-5 title-conteudo">FINEP</h2>
+        <p>
+          A Financiadora de Estudos e Projetos (FINEP), é uma empresa pública brasileira de fomento à ciência,
+          tecnologia e inovação em empresas, universidades, institutos tecnológicos e outras instituições públicas ou
+          privadas,
+          sediada no Rio de Janeiro. A empresa é vinculada ao Ministério da Ciência e Tecnologia.
+          <br>
+          <br>
+          Existem duas formas de financiamentos disponíveis, são eles: financiamentos reembolsáveis e não-reembolsáveis,
+          que abrangem diversas áreas de desenvolvimento científico e tecnológico.
+          Pesquisas básicas ou aplicadas, inovações e desenvolvimento de produtos, serviços e processos, entre outros
+          projetos como implantação de parques tecnológicos e inovações em empresas já estabelecidas, encontros,
+          seminários, congressos e feiras tecnológicas.
+        </p>
+      </div>
+
     </div>
   </main>
 </body>

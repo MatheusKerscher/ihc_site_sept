@@ -95,6 +95,7 @@
           <a href="/ihc_site_sept/pages/alunos/alunos.html"
             class="link-body-emphasis d-inline-flex text-decoration-none rounded">Alunos</a>
         </li>
+
         <!-- Concursos e Testes -->
         <li class="mb-1">
           <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
@@ -168,14 +169,14 @@
         <!-- Desenvolvedores -->
         <li class="mb-1">
           <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-            data-bs-toggle="collapse" data-bs-target="#desenvolvedores" aria-expanded="true">
+            data-bs-toggle="collapse" data-bs-target="#desenvolvedores" aria-expanded="false">
             Desenvolvedores
           </button>
-          <div class="collapse show" id="desenvolvedores">
+          <div class="collapse" id="desenvolvedores">
             <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
               <li>
                 <a href="/ihc_site_sept/pages/desenvolvedores/mariane-roesler.html"
-                  class="link-body-emphasis d-inline-flex text-decoration-underline fw-bold rounded">Mariane Roesler</a>
+                  class="link-body-emphasis d-inline-flex text-decoration-none rounded">Mariane Roesler</a>
               </li>
 
               <li>
@@ -220,19 +221,18 @@
         <!-- Pesquisa e Extensão -->
         <li class="mb-1">
           <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-            data-bs-toggle="collapse" data-bs-target="#pesquisa-extensao" aria-expanded="false">
+            data-bs-toggle="collapse" data-bs-target="#pesquisa-extensao" aria-expanded="true">
             Pesquisa e Extensão
           </button>
-          <div class="collapse" id="pesquisa-extensao">
+          <div class="collapse show" id="pesquisa-extensao">
             <!-- Pesquisa -->
             <ul class="list-unstyled ps-2">
               <li class="mb-1">
                 <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-                  data-bs-toggle="collapse" data-bs-target="#pesquisa" aria-expanded="false">
+                  data-bs-toggle="collapse" data-bs-target="#pesquisa" aria-expanded="true">
                   Pesquisa
                 </button>
-                <div class="collapse" id="pesquisa">
-
+                <div class="collapse show" id="pesquisa">
                   <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                     <li>
                       <a href="/ihc_site_sept/pages/pesquisa-e-extensao/pesquisa/auxilio-e-fomento.html"
@@ -242,8 +242,7 @@
                     </li>
 
                     <li>
-                      <a href="/ihc_site_sept/pages/pesquisa-e-extensao/pesquisa/comite-de-pesquisas.html"
-                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Comitê de
+                      <a href="/ihc_site_sept/pages/pesquisa-e-extensao/pesquisa/comite-de-pesquisas.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Comitê de
                         pesquisa</a>
                     </li>
 
@@ -255,8 +254,7 @@
                     </li>
 
                     <li>
-                      <a href="/ihc_site_sept/pages/pesquisa-e-extensao/pesquisa/grupos-de-pesquisa.html"
-                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Iniciação
+                      <a href="/ihc_site_sept/pages/pesquisa-e-extensao/pesquisa/grupos-de-pesquisa.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Iniciação
                         científica</a>
                     </li>
 
@@ -267,8 +265,7 @@
                     </li>
 
                     <li>
-                      <a href="/ihc_site_sept/pages/pesquisa-e-extensao/pesquisa/projetos-de-pesquisa.html"
-                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Projetos de
+                      <a href="/ihc_site_sept/pages/pesquisa-e-extensao/pesquisa/projetos-de-pesquisa.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded text-decoration-underline fw-bold">Projetos de
                         pesquisa</a>
                     </li>
                   </ul>
@@ -298,7 +295,8 @@
 
                     <li>
                       <a href="/ihc_site_sept/pages/pesquisa-e-extensao/extensao/entendendo-a-extensao.html"
-                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Entendendo a extensão</a>
+                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Entendendo
+                        a extensão</a>
                     </li>
 
                     <li>
@@ -333,8 +331,7 @@
               </li>
 
               <li>
-                <a href="/ihc_site_sept/pages/sobre-setor/contatos.html"
-                  class="link-body-emphasis d-inline-flex text-decoration-none rounded">Contato</a>
+                <a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Contato</a>
               </li>
 
               <li>
@@ -343,8 +340,7 @@
               </li>
 
               <li>
-                <a href="/ihc_site_sept/pages/sobre-setor/cursos.html"
-                  class="link-body-emphasis d-inline-flex text-decoration-none rounded">Cursos</a>
+                <a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Cursos</a>
               </li>
 
               <li>
@@ -353,8 +349,7 @@
               </li>
 
               <li>
-                <a href="/ihc_site_sept/pages/sobre-setor/sistemas.html"
-                  class="link-body-emphasis d-inline-flex text-decoration-none rounded">Sistemas</a>
+                <a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Sistemas</a>
               </li>
 
               <li>
@@ -387,60 +382,100 @@
     <div class="mt-2 mb-5 ms-3">
       <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
         <ol class="breadcrumb">
-          <li class="breadcrumb-item">Desenvolvedores</li>
+          <li class="breadcrumb-item">Pesquisa e extensão</li>
+          <li class="breadcrumb-item">Pesquisa</li>
           <li class="breadcrumb-item active" aria-current="page">
-            Mariane Roesler
+            Projetos de pesquisa
           </li>
         </ol>
       </nav>
     </div>
 
     <div class="card-main" style="max-height: 82vh; overflow: auto">
-      <div class="text-center">
-        <img class="img-perfil" src="../../assets/fotos-perfil/Mariane.jpg" alt="foto-perfil" width="200"
-          height="200" />
-        <h3 class="title-perfil">Mariane Roesler</h3>
-        <a href="https://www.linkedin.com/in/mariane-roesler-4a7a29201" target="_blank">
-          <img src="../../assets/icones/linkedin.svg" alt="" width="30" height="30" style="border-radius: 10px" />
-        </a>
+      <div class="">
+        <h2 class="mb-3 title-conteudo">O Banco de Projetos</h2>
+        <p>
+          O Banco de Projetos de Pesquisa é um módulo do <a href="https://www.prppg.ufpr.br/siga/">Sistema de Gestão
+            Acadêmica – SIGA/UFPR</a>. Este novo sistema
+          importa os dados de projetos de pesquisa, juntamente com dados da equipe participante e de produção
+          intelectual vinculada ao referido projeto, diretamente do currículo Lattes de cada pesquisador.
+        </p>
+        <p>
+          Dessa forma, o registro de um novo projeto de pesquisa ou alteração dos dados de um projeto existente é feito
+          diretamente por meio de atualização do currículo lattes do pesquisador, sendo então refletido na base de dados
+          da UFPR, mediante opção “Sincronizar com o Lattes”.
+        </p>
+        <p>
+          Cabe ressaltar que o docente deverá fazer a vinculação da produção científica e das orientações diretamente no
+          currículo lattes.
+        </p>
+        <p>
+          Para acessar o fluxograma de submissão de um projeto de pesquisa, <a
+            href="http://www.sept.ufpr.br/portal/wp-content/uploads/2017/06/Fluxo-Processo-Pesquisa-SEPT2.pdf">clique
+            aqui</a>.
+        </p>
+        <p>
+          <a href="http://www.prppg.ufpr.br/site/banco-de-projetos-de-pesquisa/">
+            <strong>
+              Clique aqui para acessar o Banco de Projetos de Pesquisa da UFPR.
+            </strong>
+          </a>
+        </p>
       </div>
 
-      <hr />
+      <br>
+      <hr>
+      <br>
 
-      <div class="row w-100 justify-content-center">
-        <div class="col-12 col-md-6">
-          <p class="text-center"><strong>Formação Acadêmica</strong></p>
-          <ul>
-            <li>
-              Técnico em Eletrônica com Ensino Médio Integrado - Universidade
-              Tecnológica Federal do Paraná - 2017 - 2021;
-            </li>
-            <li class="mt-2">
-              Tecnologia em Análise e Desenvolvimento de Sistemas - 3º período
-              - Universidade Federal do Paraná - 2022 - Atual.
-            </li>
-          </ul>
-        </div>
-
-        <div class="col-12 col-md-6 linha-vertical">
-          <p class="text-center"><strong>Formação Profissional</strong></p>
-          <ul>
-            <li>
-              Copel Telecomunicações - Estagiária em Eletrônica - 02/2020 –
-              01/2021;
-            </li>
-
-            <li class="my-2">
-              Electrolux do Brasil - Alimentador de linha de produção
-              (Aprendiz) - 11/2021 – 11/2022;
-            </li>
-
-            <li>AOA Tech Partners - Estagiária em QA - 11/2022 - Atual;</li>
-          </ul>
-        </div>
+      <div class="">
+        <h2 class="mb-3 title-conteudo">Resoluções de Pesquisa</h2>
+        <ul class="list-group">
+          <li class="mx-4 mb-3">
+            <a href="http://www.prppg.ufpr.br/site/wp-content/uploads/2020/07/in_03_cpdct-20200723.pdf">
+              Instrução Normativa n.03 CPDCT/PRPPG/UFPR, atualização em 23 de julho de 2020, que dispõe sobre os requisitos mínimos para cadastro e aprovação de projetos de pesquisa na UFPR.
+            </a>
+          </li>
+          <li class="mx-4 mb-3">
+            <a href="http://www.soc.ufpr.br/portal/wp-content/uploads/2016/07/resolucao_cepe_08121981-93.pdf">
+              Normas para Elaboração dos Formulários relativos ao banco de pesquisa da UFPR (Resolução n.82/81-CEPE).
+            </a>
+          </li>
+        </ul>
+        
       </div>
 
-      <p class="text-center mt-4">Atualizado em 05/2023</p>
+      <br>
+      <hr>
+      <br>
+
+      <div class="">
+        <h2 class="mb-3 title-conteudo">Modelos de documentos (editáveis)</h2>
+        <ol class="list-group ">
+          <a target="_blank"
+            href="http://www.sept.ufpr.br/portal/wp-content/uploads/2017/06/Template-1-de-Projeto-de-Pesquisa1.doc"
+            class="mx-4 mb-3">
+            <li>
+              Projeto de Pesquisa
+            </li>
+          </a>
+          <a target="_blank"
+            href="http://www.sept.ufpr.br/portal/wp-content/uploads/2017/06/Template-2-Parecer-M%C3%A9rito-Projeto-Pesquisa-Colegiado.docx"
+            class="mx-4 mb-3">
+            <li>
+              Parecer de Análise de Mérito de Projeto de Pesquisa
+            </li>
+          </a>
+          <a target="_blank"
+            href="http://www.sept.ufpr.br/portal/wp-content/uploads/2017/06/Template-3-Parecer-Enquadramento-Pesquisa-CSP.docx"
+            class="mx-4 mb-3">
+            <li>
+              Parecer de Análise de Enquadramento de Projeto de Pesquisa no Comitê Setorial de Pesquisa (CSP)
+            </li>
+          </a>
+        </ol>
+
+      </div>
+
     </div>
   </main>
 </body>
