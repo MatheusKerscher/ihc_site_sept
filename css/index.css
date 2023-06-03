@@ -148,3 +148,45 @@ li.active {
   padding: 10px 15px 0 15px;
   color: #148eff;
 }
+
+.dvm-button{
+  color: rgb(156, 156, 156);
+  text-align: left;
+  font-size: 13px;
+  background-color: rgb(223, 219, 219);
+  border: none;
+  outline: 0;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 20px;
+  font-weight: normal;
+  cursor: pointer;
+  border-radius: 10px;
+  position: relative;
+}
+
+.required{
+  color: red;
+}
+
+
+.button{
+
+  float: right;
+  width: 300px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  background-color:  #0076ff;;
+  border: none;
+  outline: 0;
+  height: 40px;
+  line-height: 20px;
+  font-weight: normal;
+  cursor: pointer;
+  border-radius: 10px;
+  position: relative;
+  vertical-align: center;
+}
+
