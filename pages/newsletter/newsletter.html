@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SEPT</title>
 
+    <title>SEPT</title>
     <link rel="stylesheet" href="/ihc_site_sept/css/reset.css" />
     <link rel="stylesheet" href="/ihc_site_sept/css/index.css" />
 
@@ -247,16 +247,16 @@
               class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
               data-bs-toggle="collapse"
               data-bs-target="#desenvolvedores"
-              aria-expanded="true"
+              aria-expanded="false"
             >
               Desenvolvedores
             </button>
-            <div class="collapse show" id="desenvolvedores">
+            <div class="collapse" id="desenvolvedores">
               <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                 <li>
                   <a
                     href="/ihc_site_sept/pages/desenvolvedores/mariane-roesler.html"
-                    class="link-body-emphasis d-inline-flex text-decoration-underline fw-bold rounded"
+                    class="link-body-emphasis d-inline-flex text-decoration-none rounded"
                     >Mariane Roesler</a
                   >
                 </li>
@@ -541,7 +541,7 @@
           <div class="my-3">
             <a
               target="_blank"
-href="https://www.facebook.com/ufpr.sept/?locale=pt_BR"
+              href="https://www.facebook.com/ufpr.sept/?locale=pt_BR"
               class="link-body-emphasis d-inline-flex text-decoration-none rounded"
               >Facebook</a
             >
@@ -550,8 +550,8 @@ href="https://www.facebook.com/ufpr.sept/?locale=pt_BR"
           <!-- Newsletter -->
           <div class="my-3">
             <a
-              href="#"
-              class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+              href="/ihc_site_sept/pages/newsletter/newsletter.html"
+              class="link-body-emphasis d-inline-flex text-decoration-underline fw-bold rounded"
               >Assine a newsletter</a
             >
           </div>
@@ -563,74 +563,336 @@ href="https://www.facebook.com/ufpr.sept/?locale=pt_BR"
       <div class="mt-2 mb-5 ms-3">
         <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
           <ol class="breadcrumb">
-            <li class="breadcrumb-item">Desenvolvedores</li>
             <li class="breadcrumb-item active" aria-current="page">
-              Mariane Roesler
+              Newsletter
             </li>
           </ol>
         </nav>
       </div>
 
       <div class="card-main" style="max-height: 82vh; overflow: auto">
-        <div class="text-center">
-          <img
-            class="img-perfil"
-            src="../../assets/fotos-perfil/Mariane.jpg"
-            alt="foto-perfil"
-            width="200"
-            height="200"
-          />
-          <h3 class="title-perfil">Mariane Roesler</h3>
-          <a
-            href="https://www.linkedin.com/in/mariane-roesler-4a7a29201"
-            target="_blank"
-          >
-            <img
-              src="../../assets/icones/linkedin.svg"
-              alt=""
-              width="30"
-              height="30"
-              style="border-radius: 10px"
+        <div>
+          <h2 class="mb-3 title-conteudo">Assine a Newsletter do SEPT</h2>
+          <h6 class="mb-3 topic-item">
+            Seja notificado sobre os avisos e novidades no setor!
+          </h6>
+
+          <div class="mb-2">
+            <label
+              ><strong>Nome</strong
+              ><span class="required">*</span>&nbsp;&nbsp;</label
+            >
+            <input
+              id="user_first_name"
+              type="text"
+              name="nome"
+              size="25"
+              class="dvm-button"
+              placeholder="Primeiro nome"
+              maxlength="30"
             />
-          </a>
+            <input
+              id="user_last_name"
+              type="text"
+              name="sobrenome"
+              size="45"
+              class="dvm-button"
+              placeholder="Sobrenome"
+              maxlength="30"
+            />
+
+            <label
+              >&nbsp;&nbsp;&nbsp;&nbsp;<strong>Apelido</strong>&nbsp;</label
+            >
+            <input
+              id="nickname"
+              type="text"
+              name="apelido"
+              size="16"
+              class="dvm-button"
+              placeholder="Nome apelido"
+              maxlength="30"
+            />
+          </div>
+
+          <div class="mb-2">
+            <label
+              ><strong>E-mail</strong
+              ><span class="required">*</span>&nbsp;</label
+            >
+            <input
+              id="email"
+              type="text"
+              name="email"
+              size="37"
+              class="dvm-button"
+              placeholder="Ex: seunome@dominio.com"
+              maxlength="30"
+            />
+          </div>
+
+          <div class="mb-2">
+            <label
+              >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Data de nascimento</strong
+              ><span class="required">*</span>&nbsp;</label
+            >
+            <input
+              type="text"
+              name="nascimento"
+              size="1"
+              class="dvm-button"
+              placeholder="Dia"
+              maxlength="2"
+            />
+            /
+          <select class="dvm-button">
+            <option>Mês</option>
+            <option value="Janeiro">Janeiro</option>
+            <option value="Fevereiro">Fevereiro</option>
+            <option value="Março">Março</option>
+            <option value="Abril">Abril</option>
+            <option value="Maio">Maio</option>
+            <option value="Junho">Junho</option>
+            <option value="Julho">Julho</option>
+            <option value="Agosto">Agosto</option>
+            <option value="Setembro">Setembro</option>
+            <option value="Outubro">Outubro</option>
+            <option value="Novembro">Novembro</option>
+            <option value="Dezembro">Dezembro</option>
+          </select>
+          /
+          <input
+            type="text"
+            name="ano_nasc"
+            size="4"
+            class="dvm-button"
+            placeholder="Ano"
+            maxlength="4"
+          />
+            </div>
         </div>
+
+        <fieldset>
+          <div>
+            <span style="width: 100px; display: inline-block"
+              ><strong>Gênero:</strong></span
+            >
+            <input type="checkbox" id="masc" name="check" />
+            <span style="width: 100px; display: inline-block">Masculino</span>
+            <input type="checkbox" id="fem" name="check" />
+            <span style="width: 100px; display: inline-block">Feminino</span>
+            <input type="checkbox" id="other" name="check" />
+            <span style="width: 100px; display: inline-block">Outro</span>
+          </div>
+        </fieldset>
 
         <hr />
 
-        <div class="row w-100 justify-content-center">
-          <div class="col-12 col-md-6">
-            <p class="text-center"><strong>Formação Acadêmica</strong></p>
-            <ul>
-              <li>
-                Técnico em Eletrônica com Ensino Médio Integrado - Universidade
-                Tecnológica Federal do Paraná - 2017 - 2021;
-              </li>
-              <li class="mt-2">
-                Tecnologia em Análise e Desenvolvimento de Sistemas - 3º período
-                - Universidade Federal do Paraná - 2022 - Atual.
-              </li>
-            </ul>
-          </div>
+        <div>
+          <label><strong>CPF</strong>&nbsp;&nbsp;</label>
+          <input
+            type="text"
+            name="cpf1"
+            size="1"
+            style="text-align: center"
+            placeholder="___"
+            class="dvm-button"
+            maxlength="3"
+          />
+          .
+          <input
+            type="text"
+            name="cpf2"
+            size="1"
+            style="text-align: center"
+            placeholder="___"
+            class="dvm-button"
+            maxlength="3"
+          />
+          .
+          <input
+            type="text"
+            name="cpf3"
+            size="1"
+            style="text-align: center"
+            placeholder="___"
+            class="dvm-button"
+            maxlength="3"
+          />
+          -
+          <input
+            type="text"
+            name="cpf4"
+            size="1"
+            style="text-align: center"
+            placeholder="__"
+            class="dvm-button"
+            maxlength="2"
+          />
 
-          <div class="col-12 col-md-6 linha-vertical">
-            <p class="text-center"><strong>Formação Profissional</strong></p>
-            <ul>
-              <li>
-                Copel Telecomunicações - Estagiária em Eletrônica - 02/2020 –
-                01/2021;
-              </li>
-
-              <li class="my-2">
-                Electrolux do Brasil - Alimentador de linha de produção
-                (Aprendiz) - 11/2021 – 11/2022;
-              </li>
-
-              <li>AOA Tech Partners - Estagiária em QA - 11/2022 - Atual;</li>
-            </ul>
-          </div>
+          <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+          <label
+            ><strong>Telefone</strong
+            ><span class="required">*</span>&nbsp;&nbsp;</label
+          >
+          <input
+            type="text"
+            name="tel"
+            size="1"
+            style="text-align: center"
+            placeholder="(___)"
+            class="dvm-button"
+            maxlength="3"
+          />
+          <input
+            type="text"
+            name="tel"
+            size="1"
+            style="text-align: center"
+            placeholder="_____"
+            class="dvm-button"
+            maxlength="5"
+          />
+          -
+          <input
+            type="text"
+            name="tel"
+            size="1"
+            style="text-align: center"
+            placeholder="____"
+            class="dvm-button"
+            maxlength="4"
+          />
         </div>
 
-        <p class="text-center mt-4">Atualizado em 05/2023</p>
+        <input type="checkbox" id="cpf-bt" name="NO_cpf" />
+        <span>Não possuo CPF</span>
+
+        <hr />
+
+        <label><strong>Nacionalidade</strong></label>
+        <input
+          type="text"
+          name="nasc"
+          size="15"
+          style="text-align: center; display: inline-block"
+          placeholder="ex: Espanhol"
+          class="dvm-button"
+          maxlength="30"
+        />
+
+        <span style="width: 250px; display: inline-block"
+          ><strong>Idioma do Newsletter:</strong></span
+        >
+        <input type="radio" id="port" name="check" value="portugues" />
+        <label for="port" style="width: 100px; display: inline-block"
+          >Português</label
+        >
+        <input type="radio" id="eng" name="check" value="ingles" />
+        <label for="eng" style="width: 100px; display: inline-block"
+          >Inglês</label
+        >
+        <input type="radio" id="esp" name="check" value="espanhol" />
+        <label for="esp" style="width: 100px; display: inline-block"
+          >Espanhol</label
+        >
+
+        <hr />
+
+        <fieldset>
+          <div>
+            <span><strong>Atualmente sou:</strong></span
+            ><br /><br />
+            <input type="radio" id="aluno" name="check" value="aluno" />
+            <label for="aluno">Aluno do SEPT</label><br />
+            <input type="radio" id="func" name="check" value="funcionario" />
+            <label for="func">Funcionário do SEPT</label><br />
+            <input
+              type="radio"
+              id="fut_aluno"
+              name="check"
+              value="futuro_aluno"
+            />
+            <label for="fut_aluno">Futuro aluno do SEPT</label><br />
+            <input
+              type="radio"
+              id="fut_func"
+              name="check"
+              value="futuro_funcionario"
+            />
+            <label for="fut_func">Futuro funcionário do SEPT</label><br />
+          </div>
+        </fieldset>
+
+        <hr />
+
+        <fieldset>
+          <div>
+            <span style="width: 400px; display: inline-block"
+              ><strong>Desejo receber a notificação em meu:</strong></span
+            >
+            <input type="checkbox" id="email_check" name="check" />
+            <span style="width: 150px; display: inline-block">E-mail </span>
+            <input type="checkbox" id="zap" name="check" />
+            <span style="width: 100px; display: inline-block">Whatsapp </span>
+            <span
+              >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span
+            >
+            <input type="checkbox" id="ambos" name="check" />
+            <span style="width: 100px; display: inline-block">Ambos</span>
+          </div>
+        </fieldset>
+
+        <hr />
+
+        <fieldset>
+          <div>
+            <span style="width: 250px; display: inline-block"
+              ><strong>Quero ser notificado:</strong></span
+            >
+            <input
+              type="radio"
+              id="email_check"
+              name="check"
+              value="todo_dia"
+            />
+            <label for="email_check">Todo dia</label>
+            <input
+              type="radio"
+              id="zap"
+              name="check"
+              value="toda_semana"
+              class="ms-2"
+            />
+            <label for="zap" class="me-2">Toda semana</label>
+            <input type="radio" id="ambos" name="check" value="todo_mes" />
+            <label for="ambos">Todo mês</label>
+          </div>
+        </fieldset>
+
+        <br />
+        <p></p>
+
+        <fieldset>
+          <div>
+            <input type="checkbox" id="ver_check" name="check" />
+            <span
+              class="title-perfil"
+              style="width: 600px; display: inline-block"
+              >&nbsp;&nbsp;&nbsp;&nbsp;Aceito que o
+              <a href="http://www.sept.ufpr.br/portal/"> portal do SEPT</a>
+              envie notificações em meu e-mail<span class="required"
+                >*</span
+              ></span
+            >
+          </div>
+
+          <br />
+
+          <button class="button" onClick="window.location.reload();">
+            Cadastrar
+          </button>
+        </fieldset>
       </div>
     </main>
   </body>
