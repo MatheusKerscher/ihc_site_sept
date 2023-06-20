@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SEPT</title>
+
+  <link rel="stylesheet" href="/ihc_site_sept/css/reset.css" />
+  <link rel="stylesheet" href="/ihc_site_sept/css/index.css" />
+
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body class="row w-100">
+  <header class="col-5 col-md-3 col-lg-2">
+    <div class="flex-shrink-0 p-3 w-100">
+      <a href="/" class="d-flex align-items-center pb-3 mb-3 link-body-emphasis text-decoration-none border-bottom">
+        <span class="fs-5 fw-semibold">SEPT - Setor de Educação Profissional e Tecnológica</span>
+      </a>
+
+      <ul class="list-unstyled ps-0">
+        <!-- Inicio -->
+        <li class="mb-3">
+          <a href="/ihc_site_sept/index.html"
+            class="link-body-emphasis d-inline-flex text-decoration-none rounded">Inicio</a>
+        </li>
+
+        <!-- Acesso à Informação -->
+        <li class="mb-1">
+          <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+            data-bs-toggle="collapse" data-bs-target="#acesso-informacao" aria-expanded="false">
+            Acesso à Informação
+          </button>
+          <div class="collapse" id="acesso-informacao">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+              <li>
+                <a target="_blank" href="http://200.236.3.198:28080/calendariosetorial/Home"
+                  class="link-body-emphasis d-inline-flex text-decoration-none rounded">Agenda SEPT</a>
+              </li>
+
+              <li>
+                <a href="/ihc_site_sept/pages/acesso-a-informacao/conselho-setorial.html"
+                  class="link-body-emphasis d-inline-flex text-decoration-none rounded">Conselho Setorial</a>
+              </li>
+
+              <li>
+                <a href="/ihc_site_sept/pages/acesso-a-informacao/cpedd.html"
+                  class="link-body-emphasis d-inline-flex text-decoration-none rounded">CPEDD</a>
+              </li>
+
+              <li>
+                <a href="/ihc_site_sept/pages/acesso-a-informacao/editais.html"
+                  class="link-body-emphasis d-inline-flex text-decoration-none rounded">Editais</a>
+              </li>
+
+              <li>
+                <a href="/ihc_site_sept/pages/acesso-a-informacao/financeiro.html"
+                  class="link-body-emphasis d-inline-flex text-decoration-none rounded">Financeiro</a>
+              </li>
+
+              <li>
+                <a href="/ihc_site_sept/pages/acesso-a-informacao/nim.html"
+                  class="link-body-emphasis d-inline-flex text-decoration-none rounded">NIM</a>
+              </li>
+
+              <li>
+                <a target="_blank" href="http://200.236.3.198:28080/portarianomeacao/Home"
+                  class="link-body-emphasis d-inline-flex text-decoration-none rounded">Portarias de Nomeação</a>
+              </li>
+
+              <li>
+                <a href="/ihc_site_sept/pages/acesso-a-informacao/resolucoes.html"
+                  class="link-body-emphasis d-inline-flex text-decoration-none rounded">Resoluções</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+
+        <!-- Alunos -->
+        <li class="my-3">
+          <a href="/ihc_site_sept/pages/alunos/alunos.html"
+            class="link-body-emphasis d-inline-flex text-decoration-none rounded">Alunos</a>
+        </li>
+
+        <!-- Concursos e Testes -->
+        <li class="mb-1">
+          <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+            data-bs-toggle="collapse" data-bs-target="#concursos-testes" aria-expanded="false">
+            Concursos e Testes
+          </button>
+          <div class="collapse" id="concursos-testes">
+            <!-- Concursos -->
+            <ul class="list-unstyled ps-2">
+              <li class="mb-1">
+                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                  data-bs-toggle="collapse" data-bs-target="#concursos" aria-expanded="false">
+                  Concursos
+                </button>
+                <div class="collapse" id="concursos">
+                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                    <li>
+                      <a href="/ihc_site_sept/pages/concursos-e-testes/concursos-publicos/concursos-abertos.html"
+                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Concursos Públicos
+                        Abertos</a>
+                    </li>
+
+                    <li>
+                      <a href="/ihc_site_sept/pages/concursos-e-testes/concursos-publicos/concursos-realizados.html"
+                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Concursos Públicos
+                        Realizados</a>
+                    </li>
+
+                    <li>
+                      <a target="_blank"
+                        href="http://progepe.ufpr.br/progepe/concursos/docente/concursos_publicos/resolucoes.html"
+                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Resoluções</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+
+            <!-- Testes -->
+            <ul class="list-unstyled ps-2">
+              <li class="mb-1">
+                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                  data-bs-toggle="collapse" data-bs-target="#testes" aria-expanded="false">
+                  Testes
+                </button>
+                <div class="collapse" id="testes">
+                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                    <li>
+                      <a href="/ihc_site_sept/pages/concursos-e-testes/testes-seletivos/resolucoes.html"
+                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Resoluções</a>
+                    </li>
+
+                    <li>
+                      <a href="/ihc_site_sept/pages/concursos-e-testes/testes-seletivos/testes-seletivos-abertos.html"
+                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Testes Seletivos
+                        Abertos</a>
+                    </li>
+
+                    <li>
+                      <a href="/ihc_site_sept/pages/concursos-e-testes/testes-seletivos/testes-seletivos-realizados.html"
+                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Testes Seletivos
+                        Realizados</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </li>
+
+        <!-- Desenvolvedores -->
+        <li class="mb-1">
+          <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+            data-bs-toggle="collapse" data-bs-target="#desenvolvedores" aria-expanded="false">
+            Desenvolvedores
+          </button>
+          <div class="collapse" id="desenvolvedores">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+              <li>
+                <a href="/ihc_site_sept/pages/desenvolvedores/mariane-roesler.html"
+                  class="link-body-emphasis d-inline-flex text-decoration-none rounded">Mariane Roesler</a>
+              </li>
+
+              <li>
+                <a href="/ihc_site_sept/pages/desenvolvedores/matheus-kerscher.html"
+                  class="link-body-emphasis d-inline-flex text-decoration-none rounded">Matheus Kerscher</a>
+              </li>
+
+              <li>
+                <a href="/ihc_site_sept/pages/desenvolvedores/nathan-rosa.html"
+                  class="link-body-emphasis d-inline-flex text-decoration-none rounded">Nathan Rosa</a>
+              </li>
+
+              <li>
+                <a href="/ihc_site_sept/pages/desenvolvedores/rafael-dias.html"
+                  class="link-body-emphasis d-inline-flex text-decoration-none rounded">Rafael Dias</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+
+        <!-- Docentes -->
+        <li class="mb-1">
+          <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+            data-bs-toggle="collapse" data-bs-target="#docentes" aria-expanded="false">
+            Docentes
+          </button>
+          <div class="collapse" id="docentes">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+              <li>
+                <a target="_blank" href="http://www.sept.ufpr.br/portal/administrativo9"
+                  class="link-body-emphasis d-inline-flex text-decoration-none rounded">Administrativo</a>
+              </li>
+
+              <li>
+                <a target="_blank" href="http://200.236.3.198:28080/salasept/"
+                  class="link-body-emphasis d-inline-flex text-decoration-none rounded">Sistema de reserva de salas</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+
+        <!-- Pesquisa e Extensão -->
+        <li class="mb-1">
+          <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+            data-bs-toggle="collapse" data-bs-target="#pesquisa-extensao" aria-expanded="true">
+            Pesquisa e Extensão
+          </button>
+          <div class="collapse show" id="pesquisa-extensao">
+            <!-- Pesquisa -->
+            <ul class="list-unstyled ps-2">
+              <li class="mb-1">
+                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                  data-bs-toggle="collapse" data-bs-target="#pesquisa" aria-expanded="true">
+                  Pesquisa
+                </button>
+                <div class="collapse show" id="pesquisa">
+                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                    <li>
+                      <a href="/ihc_site_sept/pages/pesquisa-e-extensao/pesquisa/auxilio-e-fomento.html"
+                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Auxílio
+                        e
+                        Fomento</a>
+                    </li>
+
+                    <li>
+                      <a href="/ihc_site_sept/pages/pesquisa-e-extensao/pesquisa/comite-de-pesquisas.html" class="link-body-emphasis d-inline-flex text-decoration-underline fw-bold">Comitê de
+                        pesquisa</a>
+                    </li>
+
+                    <li>
+                      <a href="/ihc_site_sept/pages/pesquisa-e-extensao/pesquisa/grupos-de-pesquisa.html"
+                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Grupos
+                        de
+                        pesquisa</a>
+                    </li>
+
+                    <li>
+                      <a href="/ihc_site_sept/pages/pesquisa-e-extensao/pesquisa/iniciacao-cientifica.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Iniciação
+                        científica</a>
+                    </li>
+
+                    <li>
+                      <a target="_blank"
+                        href="http://200.17.200.17/wa_files/Manual_20para_20divulga_C3_A7_C3_A3o_20pela_20UFPR.pdf"
+                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Manual de divulgação</a>
+                    </li>
+
+                    <li>
+                      <a href="/ihc_site_sept/pages/pesquisa-e-extensao/pesquisa/projetos-de-pesquisa.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Projetos de
+                        pesquisa</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+
+            <!-- Extensão -->
+            <ul class="list-unstyled ps-2">
+              <li class="mb-1">
+                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                  data-bs-toggle="collapse" data-bs-target="#extensao" aria-expanded="false">
+                  Extensão
+                </button>
+                <div class="collapse" id="extensao">
+                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                    <li>
+                      <a href="/ihc_site_sept/pages/pesquisa-e-extensao/extensao/como-emitir-certificados.html"
+                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Como emitir os
+                        certificados</a>
+                    </li>
+
+                    <li>
+                      <a target="_blank" href="http://www.proec.ufpr.br/links/extensao/normatizacoes.html"
+                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Como propor a extensão</a>
+                    </li>
+
+                    <li>
+                      <a href="/ihc_site_sept/pages/pesquisa-e-extensao/extensao/entendendo-a-extensao.html"
+                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Entendendo
+                        a extensão</a>
+                    </li>
+
+                    <li>
+                      <a href="/ihc_site_sept/pages/pesquisa-e-extensao/extensao/membro-do-comite-setorial.html"
+                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Membros do comitê setorial
+                        de extensão</a>
+                    </li>
+
+                    <li>
+                      <a href="/ihc_site_sept/pages/pesquisa-e-extensao/extensao/reunioes-do-comite-setorial.html"
+                        class="link-body-emphasis d-inline-flex text-decoration-none rounded">Reuniões do comitê
+                        setorial de extensão</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </li>
+
+        <!-- Sobre o setor -->
+        <li class="mb-1">
+          <button
+            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+            data-bs-toggle="collapse"
+            data-bs-target="#sobre-setor"
+            aria-expanded="false"
+          >
+            Sobre o setor
+          </button>
+          <div class="collapse" id="sobre-setor">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+              <li>
+                <a
+                  href="/ihc_site_sept/pages/sobre-setor/como-ingressar.html"
+                  class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                  >Como Ingressar</a
+                >
+              </li>
+
+              <li>
+                <a
+                  href="/ihc_site_sept/pages/sobre-setor/contatos.html"
+                  class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                  >Contato</a
+                >
+              </li>
+
+              <li>
+                <a
+                  href="/ihc_site_sept/pages/sobre-setor/corpo-docente.html"
+                  class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                  >Corpo Docente</a
+                >
+              </li>
+
+              <li>
+                <a
+                  href="/ihc_site_sept/pages/sobre-setor/cursos.html"
+                  class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                  >Cursos</a
+                >
+              </li>
+
+              <li>
+                <a
+                  href="/ihc_site_sept/pages/sobre-setor/historia.html"
+                  class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                  >História</a
+                >
+              </li>
+
+              <li>
+                <a
+                  href="/ihc_site_sept/pages/sobre-setor/sistemas.html"
+                  class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                  >Sistemas</a
+                >
+              </li>
+
+              <li>
+                <a
+                  href="/ihc_site_sept/pages/sobre-setor/unidades.html"
+                  class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                  >Unidades do Setor</a
+                >
+              </li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="border-top my-3"></li>
+      </ul>
+
+      <div>
+        <!-- Facebook -->
+        <div class="my-3">
+          <a target="_blank" href="https://www.facebook.com/ufpr.sept/?locale=pt_BR"
+            class="link-body-emphasis d-inline-flex text-decoration-none rounded">Facebook</a>
+        </div>
+
+        <!-- Newsletter -->
+        <div class="my-3">
+          <a href="/ihc_site_sept/pages/newsletter/newsletter.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Assine a newsletter</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="col-7 col-md-9 col-lg-10">
+    <div class="mt-2 mb-5 ms-3">
+      <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item">Pesquisa e extensão</li>
+          <li class="breadcrumb-item">Pesquisa</li>
+          <li class="breadcrumb-item active" aria-current="page">
+            Comitê de Pesquisas
+          </li>
+        </ol>
+      </nav>
+    </div>
+
+    <div class="card-main" style="max-height: 82vh; overflow: auto">
+      <div class="">
+        <h2 class="title-conteudo">
+          O Comitê de Pesquisas
+        </h2>
+        <p>
+          O Comitê Setorial de Pesquisa atende os assuntos referentes a auxílio para participação e organização de
+          eventos,
+          elaboração de projetos de pesquisa e divulgação dos resultados das atividades de pesquisa do SEPT.
+        </p>
+        <p>
+          O Comitê também atua na comunicação do setor com a PRPPG (Pró Reitoria de Pesquisa e Pós Graduação) da UFPR.
+        </p>
+        <p>
+          O Comitê se reúne regularmente para aprovação de projetos e relatórios de pesquisa do SEPT.
+        </p>
+        <p>
+          <b>
+            Obs.: A fim de possibilitar as análises e pareceres do CSP – Comitê Setorial de Pesquisa, em tempo hábil, o
+            processo de encaminhamento do projeto de pesquisa do professor deve ser submetido ao CSP até a data
+            constante na coluna “Prazo Final Submissão via SEI ao CSP”. Os processos encaminhados ao CSP após esta data
+            não serão deliberados na reunião prevista na coluna “Data da reunião do CSP”.
+          </b>
+        </p>
+
+        <p>
+          <a href="">Clique aqui para acessar as pautas e Atas do Conselho Setorial de Pesquisas SCP e SEPT</a>
+        </p>
+
+        <p>
+          <a href="">Clique aqui para acessar o cronograma das reuniões do comitê Setorial de Pesquisa CSP SEPT</a>
+        </p>
+
+        <hr>
+
+      </div>
+
+      <div class="">
+        <br>
+        <h2 class="title-conteudo">
+          Membros do Comitê Setorial de Pesquisa
+        </h2>
+        <br>
+
+
+        <p><strong>PRESIDÊNCIA DO COMITÊ SETORIAL DE PESQUISA (CSPq) – SEPT/UFPR</strong></p>
+        <table class="table table-bordered">
+          <tbody>
+            <tr>
+              <th><strong>Nome</strong></th>
+              <th><strong>Função</strong></th>
+              <th><strong>Portaria</strong></th>
+              <th><strong>Validade</strong></th>
+              <th><strong>Link</strong></th>
+            </tr>
+            <tr>
+              <td>Profa. Luci Regina Panka Archegas</td>
+              <td>TITULAR</td>
+              <td>68/2021</td>
+              <td>20/07/2023</td>
+              <td><a href="http://www.sept.ufpr.br/portal/wp-content/uploads/2017/06/Portaria-068-2021-SEPT.pdf"
+                  target="_blank">Portaria</a></td>
+            </tr>
+            <tr>
+              <td>Profa. Cristiane dos Santos Souza</td>
+              <td>SUPLENTE</td>
+              <td>68/2021</td>
+              <td>20/07/2023</td>
+              <td><a href="http://www.sept.ufpr.br/portal/wp-content/uploads/2017/06/Portaria-068-2021-SEPT.pdf"
+                  target="_blank">Portaria</a></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <br>
+
+        <p><strong>REPRESENTANTES NO COMITÊ ASSESSOR DE PESQUISA (CAPq) – PRPPG/UFPR</strong></p>
+        <table class="table table-bordered">
+          <tbody>
+            <tr>
+              <th><strong>Nome</strong></th>
+              <th><strong>Função</strong></th>
+              <th><strong>Portaria</strong></th>
+              <th><strong>Validade</strong></th>
+              <th><strong>Link para a Portaria</strong></th>
+            </tr>
+            <tr>
+              <td>Profa. Luci Regina Panka Archegas</td>
+              <td>TITULAR</td>
+              <td>69/2021</td>
+              <td>20/07/2023</td>
+              <td><a href="http://www.sept.ufpr.br/portal/wp-content/uploads/2017/06/Portaria-069-2021-SEPT.pdf"
+                  target="_blank">Portaria</a></td>
+            </tr>
+            <tr>
+              <td>Prof. José Roberto do Carmo Júnior</td>
+              <td>SUPLENTE</td>
+              <td>69/2021</td>
+              <td>20/07/2023</td>
+              <td><a href="http://www.sept.ufpr.br/portal/wp-content/uploads/2017/06/Portaria-069-2021-SEPT.pdf"
+                  target="_blank">Portaria</a></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <br>
+
+        <p><strong>REPRESENTANTES NO COMITÊ ASSESSOR
+            DE&nbsp;INICIAÇÃO CIENTÍFICA (CAIC) – PRPPG/UFPR</strong></p>
+        <table class="table table-bordered">
+          <tbody>
+            <tr>
+              <th><strong>Nome</strong></th>
+              <th><strong>Função</strong></th>
+              <th><strong>Portaria</strong></th>
+              <th><strong>Validade</strong></th>
+              <th><strong>Link para a Portaria</strong></th>
+            </tr>
+            <tr>
+              <td>Profa. Cristiane dos Santos Souza</td>
+              <td>TITULAR</td>
+              <td>70/2021</td>
+              <td>20/07/2023</td>
+              <td><a href="http://www.sept.ufpr.br/portal/wp-content/uploads/2017/06/Portaria-070-2021-SEPT.pdf"
+                  target="_blank">Portaria</a></td>
+            </tr>
+            <tr>
+              <td>Prof. José Elmar Feger</td>
+              <td>SUPLENTE</td>
+              <td>70/2021</td>
+              <td>20/07/2023</td>
+              <td><a href="http://www.sept.ufpr.br/portal/wp-content/uploads/2017/06/Portaria-070-2021-SEPT.pdf"
+                  target="_blank">Portaria</a></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <br>
+
+        <p><strong>REPRESENTANTES POR CURSO NO COMITÊ SETORIAL DE PESQUISA (CSPq/SEPT/UFPR)</strong></p>
+        <table class="table table-bordered">
+          <tbody>
+            <tr>
+              <th><strong>Nome do Curso</strong></th>
+              <th><strong>Portaria</strong></th>
+              <th><strong>Validade</strong></th>
+              <th><strong>Nome do Professor</strong></th>
+            </tr>
+            <tr>
+              <td><a href="http://www.sept.ufpr.br/portal/petroleogas/sobre-o-curso/" target="_blank">Curso Técnico
+                  Petróleo e Gás Integrado ao Ensino Médio (TPG)</a></td>
+              <td>129/2021</td>
+              <td>13/12/2023</td>
+              <td>profa. Sandra Eleine Romais Leonardi (titular)<br><em>profa. Simone Valaski (suplente)</em></td>
+            </tr>
+            <tr>
+              <td><a href="http://www.sept.ufpr.br/portal/agentesaude/sobre-o-curso/" target="_blank">Curso Agente
+                  Comunitário de Saúde (TACS)</a></td>
+              <td>40/2023 SEPT</td>
+              <td>09/05/2023 até 31/12/2023</td>
+              <td>profa. Luci Regina Panka Archegas (titular)<br><em>profa. Silvia Cristina Sprengel de Alencar
+                  (suplente)</em></td>
+            </tr>
+            <tr>
+              <td><a href="http://www.sept.ufpr.br/portal/comunicacaoinstitucional/sobre-o-curso/" target="_blank">Curso
+                  Superior Tecnologia em Comunicação Institucional (TCI)</a></td>
+              <td>20/2023 SEPT</td>
+              <td>27/03/2024</td>
+              <td>profa. Ana Carolina de Araújo e Silva (titular)<br><em>profa. Letícia Salém Hermann Lima
+                  (suplente)</em></td>
+            </tr>
+            <tr>
+              <td><a href="http://www.sept.ufpr.br/portal/gestaoqualidade/sobre-o-curso/" target="_blank">Curso Superior
+                  Tecnologia em Gestão da Qualidade (TGQ)</a></td>
+              <td>56/2021</td>
+              <td>05/07/2023</td>
+              <td>prof. José Elmar Feger (titular)<br><em>profa. Carla Regina Mazia Rosa (suplente)</em></td>
+            </tr>
+            <tr>
+              <td><a href="http://www.sept.ufpr.br/portal/gestaopublica/sobre-o-curso/" target="_blank">Curso Superior
+                  Tecnologia em Gestão Pública (TGP)</a></td>
+              <td>100/2021</td>
+              <td>05/10/2023</td>
+              <td>prof. Guilherme Ricardo dos Santos Souza e Silva (titular)<br><em>profa. Cleci Körbes (suplente)</em>
+              </td>
+            </tr>
+            <tr>
+              <td><a href="http://www.sept.ufpr.br/portal/producaocenica/sobre-o-curso/" target="_blank">Curso Superior
+                  Tecnologia em Produção Cênica (TPC)</a></td>
+              <td>87/2021</td>
+              <td>20/09/2023</td>
+              <td>profa. Cristiane dos Santos Souza (titular)<br><em>prof. Allan Valenza da Silveira (suplente)</em>
+              </td>
+            </tr>
+            <tr>
+              <td><a href="http://www.sept.ufpr.br/portal/negociosimobiliarios/sobre-o-curso/" target="_blank">Curso
+                  Superior Tecnologia em Negócios Imobiliários (TNI)</a></td>
+              <td>65/2021</td>
+              <td>13/07/2023</td>
+              <td>profa. Bettina Augusta Amorim Bulzico Battaglin (titular)<br><em>profa. Silvana Maria Carbonera
+                  (suplente)</em></td>
+            </tr>
+            <tr>
+              <td><a href="http://www.sept.ufpr.br/portal/secretariado/sobre-o-curso/" target="_blank">Curso Superior
+                  Tecnologia em Secretariado (TSE)</a></td>
+              <td>123/2021</td>
+              <td>30/11/2023</td>
+              <td>profa. Fernanda Landolfi Maia (titular)<br><em>profa. Zélia Freiberger (suplente)</em></td>
+            </tr>
+            <tr>
+              <td><a href="http://www.sept.ufpr.br/portal/analisesistemas/sobre-o-curso/" target="_blank">Curso Superior
+                  Tecnologia em Análise e Desenvolvimento de Sistemas (TADS)</a></td>
+              <td>132/2021</td>
+              <td>17/12/2023</td>
+              <td>prof. Luiz Antonio Pereira Neves (titular)<br><em>prof. Mario de Paula Soares Filho (suplente)</em>
+              </td>
+            </tr>
+            <tr>
+              <td><a href="http://www.sept.ufpr.br/portal/luteria/sobre-o-curso/" target="_blank">Curso Superior
+                  Tecnologia em Luteria (LUTERIA)</a></td>
+              <td>50/2022</td>
+              <td>29/07/2023</td>
+              <td>prof. José Roberto do Carmo Junior (titular)<br><em>prof. Juarez Bergmann Filho (suplente)</em></td>
+            </tr>
+            <tr>
+              <td>Programa de Pós-Graduação Strito Sensu em <a href="http://www.bioinfo.ufpr.br/"
+                  target="_blank">Bioinformática</a></td>
+              <td>04/2021</td>
+              <td>31/12/2021 (*)</td>
+              <td>profa. Jeroniza Nunes Marchaukoski (titular)</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <br>
+        <hr>
+        <br>
+
+        <h2 class="title-conteudo">
+          Resoluções de Pesquisa
+        </h2>
+        <br>
+        <ul>
+          <li>Resolução 25/2020 CEPE – Cria e regulamenta o funcionamento do Comitê Assessor de Pesquisa (CAPq),
+            do Comitê Assessor de Iniciação Científica (CAIC), dos Comitês Setoriais de Pesquisa (CSPq) e estabelece
+            critérios para sua composição, atribuição e dá outras providências.</li>
+          <li>
+            <a href="http://www.soc.ufpr.br/portal/wp-content/uploads/2016/07/resolucao_cepe_20081999-67.pdf">
+              Comitês Central e Setoriais de Ética em Pesquisa Envolvendo Seres Humanos
+              (Resolução nº 75/99-CEPE)
+            </a>
+          </li>
+          <li>
+            <a href="http://www.soc.ufpr.br/portal/wp-content/uploads/2016/07/resolucao_coun_03092004-106.pdf">
+              Plano Institucional de Pesquisa UFPR (Resolução nº 51/04-COUN)
+            </a>
+          </li>
+          <li>
+            <a href="http://www.sept.ufpr.br/portal/wp-content/uploads/2017/06/UFPR_IN_03_2020_PRPPG.pdf">
+              Instrução Normativa n. 03 CPDCT/PRPPG/UFPR</a>, atualização em 23 de julho de 2020, que dispõe sobre os
+            requisitos mínimos para cadastro e aprovação de projetos de pesquisa na UFPR
+          </li>
+          <li>
+            <a href="http://www.soc.ufpr.br/portal/wp-content/uploads/2016/07/resolucao_cepe_08121981-93.pdf">
+              Normas para Elaboração dos Formulários relativos ao banco de Pesquisa da UFPR (Resolução nº 82/81-CEP)
+            </a>
+          </li>
+          <li>
+            <a href="http://www.soc.ufpr.br/portal/wp-content/uploads/2016/07/resolucao_cepe_27081985-92.pdf">
+              Normas para Elaboração dos Formulários relativos ao banco de Pesquisas. (Resolução nº 27/85-CEPE)
+            </a>
+          </li>
+        </ul>
+
+        <br>
+        <hr>
+        <br>
+
+        <h2 class="title-conteudo">
+          Elaboração de Projeto de Pesquisa na UFPR
+        </h2>
+        <br>
+        <ul>
+          <li>
+            <a href="http://www.prppg.ufpr.br/site/instrucoes-normativas/">
+              Instruções normativas para elaboração de projetos de pesquisa CPDCT/PRPPG
+            </a>
+          </li>
+          <li>
+            <a href="http://www.prppg.ufpr.br/site/banco-de-projetos-de-pesquisa/">
+              Acesso ao Banco de Projetos de Pesquisa
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+    </div>
+  </main>
+</body>
+
+</html>
